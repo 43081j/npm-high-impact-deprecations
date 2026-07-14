@@ -1,14 +1,14 @@
 {
-  "name": "@43081j/npm-soft-deprecation",
+  "name": "@43081j/npm-high-impact-deprecations",
   "version": "0.1.0",
   "description": "A collection of package sreps.",
-  "homepage": "https://github.com/43081j/npm-soft-deprecation#readme",
+  "homepage": "https://github.com/43081j/npm-high-impact-deprecation#readme",
   "bugs": {
-    "url": "https://github.com/43081j/npm-soft-deprecation/issues"
+    "url": "https://github.com/43081j/npm-high-impact-deprecation/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/43081j/npm-soft-deprecation.git"
+    "url": "git+https://github.com/43081j/npm-high-impact-deprecation.git"
   },
   "license": "MIT",
   "author": "James Garbutt (https://github.com/43081j)",
