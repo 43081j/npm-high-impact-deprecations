@@ -21,8 +21,7 @@
     "!lib/**/*.test.d.ts"
   ],
   "scripts": {
-    "build:clean": "node -e \"require('fs').rmSync('./lib', { recursive: true, force: true })\"",
-    "build": "npm run build:clean && tsc",
+    "build": "tsc",
     "generate": "node src/generate.ts",
     "find-deprecated": "node src/find-deprecated.ts",
     "report": "node src/report.ts",
@@ -34,7 +33,6 @@
   },
   "devDependencies": {
     "@types/node": "^26.1.1",
-    "h3": "^2.0.1-rc.25",
     "npm-high-impact": "^1.13.0",
     "oxfmt": "^0.59.0",
     "oxlint": "^1.74.0",
