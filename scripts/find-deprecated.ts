@@ -26,7 +26,7 @@ type Confidence = 'high' | 'medium';
 interface Finding {
   name: string;
   /** The README line (1-based) the notice was found on. */
-  position: number;
+  line: number;
   /** The matched deprecation notice text. */
   reason: string;
   confidence: Confidence;
@@ -185,9 +185,13 @@ function scan(name: string, content: string): Finding | undefined {
   const lines = content.split(/\r?\n/);
   let confidence: Confidence | undefined;
   let reason = '';
-  let position = 0;
+  let line = 0;
 
-  const record = (line: number, level: Confidence, snippet?: string): void => {
+  const record = (
+    currentLine: number,
+    level: Confidence,
+    snippet?: string,
+  ): void => {
     // Keep the first notice found, but let a "high" match supersede a "medium".
     if (
       confidence !== undefined &&
@@ -196,19 +200,19 @@ function scan(name: string, content: string): Finding | undefined {
       return;
     }
     confidence = level;
-    reason = (snippet ?? lines[line]!.trim()).slice(0, 200);
-    position = line + 1;
+    reason = (snippet ?? lines[currentLine]!.trim()).slice(0, 200);
+    line = currentLine + 1;
   };
 
   let firstHeadingSeen = false;
   let nonEmptySeen = 0;
 
   for (let i = 0; i < lines.length; i++) {
-    const line = lines[i]!;
-    const trimmed = line.trim();
+    const lineContent = lines[i]!;
+    const trimmed = lineContent.trim();
     if (trimmed === '') continue;
 
-    const heading = headingText(line);
+    const heading = headingText(lineContent);
 
     // First heading of the document is the strongest signal.
     if (heading !== undefined && !firstHeadingSeen) {
@@ -260,7 +264,7 @@ function scan(name: string, content: string): Finding | undefined {
   }
 
   if (confidence === undefined) return undefined;
-  return { name, position, reason, confidence };
+  return { name, line, reason, confidence };
 }
 
 async function collectReadmes(dir: string): Promise<string[]> {
@@ -293,10 +297,10 @@ async function main(): Promise<void> {
       a.name.localeCompare(b.name),
   );
 
-  const output = findings.map(({ name, reason, position }) => ({
+  const output = findings.map(({ name, reason, line }) => ({
     name,
     reason,
-    position,
+    line,
   }));
   const json = JSON.stringify(output, null, 2) + '\n';
 

@@ -2,1526 +2,1526 @@
   {
     "name": "@apollo/server-plugin-landing-page-graphql-playground",
     "reason": "This package is deprecated and exists for v4 migration purposes only.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "@assemblyscript/loader",
     "reason": "**DEPRECATION NOTICE:** The loader has been deprecated in AssemblyScript 0.20. It will likely continue to work for a while, but it is recommended to switch to the new [static bindings](https://www.ass",
-    "position": 5
+    "line": 5
   },
   {
     "name": "@aws-cdk/assert",
     "reason": "This library has been deprecated.",
-    "position": 12
+    "line": 12
   },
   {
     "name": "@aws-sdk/middleware-signing",
     "reason": "This package is deprecated.",
-    "position": 6
+    "line": 6
   },
   {
     "name": "@azure/ms-rest-js",
     "reason": "This package has been deprecated in favor of the new Azure SDK packages from [Azure SDK for JavaScript](https://github.com/azure/azure-sdk-for-js).",
-    "position": 1
+    "line": 1
   },
   {
     "name": "@babel/polyfill",
     "reason": "This package has been deprecated in favor of separate inclusion of required parts of [core-js](https://github.com/zloirock/core-js) and [regenerator-runtime](https://www.npmjs.com/package/regenerator-",
-    "position": 6
+    "line": 6
   },
   {
     "name": "@bugsnag/source-maps",
     "reason": "## This package is now deprecated - please use [bugsnag-cli](https://github.com/bugsnag/bugsnag-cli) to upload source maps to Bugsnag",
-    "position": 3
+    "line": 3
   },
   {
     "name": "@cypress/browserify-preprocessor",
     "reason": "## Note: This plugin is deprecated and Cypress will not be moving forward with development of the plugin.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "@endemolshinegroup/cosmiconfig-typescript-loader",
     "reason": "This package is no longer maintained: Please use [this fork from @Codex-](https://github.com//cosmiconfig-typescript-loader/) instead.",
-    "position": 21
+    "line": 21
   },
   {
     "name": "@esbuild-kit/cjs-loader",
     "reason": "> ## ⚠️ Project moved. Repository unmaintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "@esbuild-kit/esm-loader",
     "reason": "> ## ⚠️ Project moved. Repository unmaintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "@google-cloud/local-auth",
     "reason": "THIS PACKAGE IS DEPRECATED.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "@httptoolkit/subscriptions-transport-ws",
     "reason": "# `subscriptions-transport-ws` is no longer maintained",
-    "position": 1
+    "line": 1
   },
   {
     "name": "@lottiefiles/react-lottie-player",
     "reason": "This package (@lottiefiles/react-lottie-player) is deprecated and no longer maintained.",
-    "position": 2
+    "line": 2
   },
   {
     "name": "@material/data-table",
     "reason": "This project is no longer actively maintained.",
-    "position": 6
+    "line": 6
   },
   {
     "name": "@metamask/sdk",
     "reason": "> **⚠️ DEPRECATED**",
-    "position": 3
+    "line": 3
   },
   {
     "name": "@metamask/sdk-communication-layer",
     "reason": "> **⚠️ DEPRECATED**",
-    "position": 3
+    "line": 3
   },
   {
     "name": "@metamask/sdk-install-modal-web",
     "reason": "> **⚠️ DEPRECATED**",
-    "position": 3
+    "line": 3
   },
   {
     "name": "@module-federation/data-prefetch",
     "reason": "# Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "@newrelic/koa",
     "reason": "This package has been deprecated.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "@newrelic/superagent",
     "reason": "This package has been deprecated.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "@npmcli/ci-detect",
     "reason": "THIS PACKAGE HAS BEEN DEPRECATED, USE ci-info INSTEAD",
-    "position": 3
+    "line": 3
   },
   {
     "name": "@nrwl/tao",
     "reason": "@nrwl/tao has been deprecated in favor of [nx](https://www.npmjs.com/package/nx).",
-    "position": 3
+    "line": 3
   },
   {
     "name": "@oclif/color",
     "reason": "This package has been deprecated.",
-    "position": 4
+    "line": 4
   },
   {
     "name": "@opentelemetry/host-metrics",
     "reason": "> **Deprecated:** This package is deprecated. Use [`@opentelemetry/instrumentation-host-metrics`](https://github.com/open-telemetry/opentelemetry-js-contrib/tree/main/packages/instrumentation-host-met",
-    "position": 3
+    "line": 3
   },
   {
     "name": "@opentelemetry/instrumentation-fastify",
     "reason": "This component is deprecated in favor of the official instrumentation package [@fastify/otel](https://www.npmjs.com/package/@fastify/otel), maintained by the Fastify authors.",
-    "position": 7
+    "line": 7
   },
   {
     "name": "@sinonjs/formatio",
     "reason": "# formatio - DEPRECATED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "@storybook/addon-console",
     "reason": "## Deprecation and migration",
-    "position": 25
+    "line": 25
   },
   {
     "name": "@storybook/addon-options",
     "reason": "# Options Addon is deprecated as of Storybook 5.0",
-    "position": 1
+    "line": 1
   },
   {
     "name": "@storybook/addon-postcss",
     "reason": "🚨 DEPRECATED: This package is unmaintained and deprecated in favor of [@storybook/addon-styling-webpack](https://github.com/storybookjs/addon-styling-webpack) and [@storybook/addon-themes](https://gi",
-    "position": 1
+    "line": 1
   },
   {
     "name": "@storybook/docs-mdx",
     "reason": "This package is no longer maintained, its functionality has been inlined into the core Storybook package: https://github.com/storybookjs/storybook/pull/34611",
-    "position": 1
+    "line": 1
   },
   {
     "name": "@storybook/preset-scss",
     "reason": "🚨 DEPRECATED: This package in unmaintained and deprecated in favor of [`@storybook/addon-styling`](https://storybook.js.org/addons/@storybook/addon-styling/)",
-    "position": 1
+    "line": 1
   },
   {
     "name": "@stylelint/postcss-markdown",
     "reason": "## Deprecated",
-    "position": 11
+    "line": 11
   },
   {
     "name": "@supabase/ssr",
     "reason": "## Deprecated Packages",
-    "position": 21
+    "line": 21
   },
   {
     "name": "@testing-library/jest-native",
     "reason": "This package is deprecated and is no longer actively maintained.",
-    "position": 2
+    "line": 2
   },
   {
     "name": "@unhead/schema",
     "reason": "# Deprecated: `@unhead/schema`",
-    "position": 1
+    "line": 1
   },
   {
     "name": "@unhead/shared",
     "reason": "# Deprecated: `@unhead/shared`",
-    "position": 1
+    "line": 1
   },
   {
     "name": "@unocss/preset-uno",
     "reason": "This package is deprecated and renamed to @unocss/preset-wind3.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "@unocss/preset-wind",
     "reason": "This package is deprecated and renamed to @unocss/preset-wind3.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "@vercel/edge",
     "reason": "> ⚠️ Deprecation Notice: This package has been unified in [@vercel/functions](https://www.npmjs.com/package/@vercel/functions). Use it instead!",
-    "position": 3
+    "line": 3
   },
   {
     "name": "@wessberg/rollup-plugin-ts",
     "reason": "# This library has been deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "abab",
     "reason": "# abab is deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "ape-covering",
     "reason": "## !! NO LONGER MAINTAINED.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "ape-reporting",
     "reason": "## !! NO LONGER MAINTAINED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "ape-testing",
     "reason": "## !! NO LONGER MAINTAINED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "apollo-link",
     "reason": "THIS PROJECT HAS BEEN DEPRECATED ⚠️",
-    "position": 5
+    "line": 5
   },
   {
     "name": "apollo-link-context",
     "reason": "THIS PROJECT HAS BEEN DEPRECATED ⚠️",
-    "position": 5
+    "line": 5
   },
   {
     "name": "apollo-link-error",
     "reason": "THIS PROJECT HAS BEEN DEPRECATED ⚠️",
-    "position": 5
+    "line": 5
   },
   {
     "name": "apollo-link-http",
     "reason": "THIS PROJECT HAS BEEN DEPRECATED ⚠️",
-    "position": 5
+    "line": 5
   },
   {
     "name": "apollo-link-http-common",
     "reason": "THIS PROJECT HAS BEEN DEPRECATED ⚠️",
-    "position": 5
+    "line": 5
   },
   {
     "name": "appium-idb",
     "reason": "appium-idb is no longer actively maintained.",
-    "position": 5
+    "line": 5
   },
   {
     "name": "art-template",
     "reason": "> ## ⚠️ 项目已停止维护 / No Longer Maintained",
-    "position": 1
+    "line": 1
   },
   {
     "name": "async-cache",
     "reason": "# Deprecated.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "autoprefixer-core",
     "reason": "autoprefixer-core was deprecated, use autoprefixer instead",
-    "position": 1
+    "line": 1
   },
   {
     "name": "autoprefixer-loader",
     "reason": "> ### :warning: This module is deprecated. [Autoprefixer official page](https://github.com/postcss/autoprefixer#webpack) recommends using [`postcss-loader`](https://github.com/postcss/postcss-loader) ",
-    "position": 5
+    "line": 5
   },
   {
     "name": "babel-istanbul",
     "reason": "## DEPRECATED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "babel-plugin-react-transform",
     "reason": ">## This Project Is Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "babel-plugin-typecheck",
     "reason": "# Deprecated",
-    "position": 8
+    "line": 8
   },
   {
     "name": "babel-preset-es2015-loose",
     "reason": ">## Deprecation warning",
-    "position": 3
+    "line": 3
   },
   {
     "name": "babel-preset-es2015-node4",
     "reason": "**DEPRECATED: Use the awesome [babel-preset-env](https://github.com/babel/babel-preset-env)!**",
-    "position": 5
+    "line": 5
   },
   {
     "name": "better-npm-run",
     "reason": "# ⚠️ ‼️ DEPRECATION WARNING ‼️ ⚠️",
-    "position": 1
+    "line": 1
   },
   {
     "name": "blue-tape",
     "reason": "#### This project is no longer maintained.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "buf-compare",
     "reason": "# Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "buffer-equals",
     "reason": "**Deprecated: Just use [`Buffer#equals()`](https://nodejs.org/api/buffer.html#buffer_buf_equals_otherbuffer). It has been available since Node.js 0.12.**",
-    "position": 5
+    "line": 5
   },
   {
     "name": "buildmail",
     "reason": "# NB! This project is deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "bundle-loader",
     "reason": "# ! NO LONGER MAINTAINED !",
-    "position": 8
+    "line": 8
   },
   {
     "name": "cache-loader",
     "reason": "# DEPRECATED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "cids",
     "reason": "⛔️ DEPRECATED: This module has been superseded by the [multiformats](https://github.com/multiformats/js-multiformats) module <!-- omit in toc -->",
-    "position": 1
+    "line": 1
   },
   {
     "name": "cleave.js",
     "reason": "# ⚠️ Deprecated Message",
-    "position": 1
+    "line": 1
   },
   {
     "name": "cli-ux",
     "reason": "# ========= This module has been deprecated in favor of [oclif/core](https://github.com/oclif/core) and will no longer be maintained. =========",
-    "position": 4
+    "line": 4
   },
   {
     "name": "codacy-coverage",
     "reason": "# Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "codecov",
     "reason": "🚨🚨 Deprecation Notice 🚨🚨",
-    "position": 1
+    "line": 1
   },
   {
     "name": "coffeelint",
     "reason": "This project is no longer maintained but the code remains freely available for your",
-    "position": 7
+    "line": 7
   },
   {
     "name": "core-assert",
     "reason": "# Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "coveralls",
     "reason": "This repo is no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "cross-spawn-async",
     "reason": "This module is deprecated, use [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn) instead which no longer requires a build toolchain.",
-    "position": 19
+    "line": 19
   },
   {
     "name": "crypto",
     "reason": "# Deprecated Package",
-    "position": 1
+    "line": 1
   },
   {
     "name": "crypto-js",
     "reason": "This library is no longer maintained.",
-    "position": 7
+    "line": 7
   },
   {
     "name": "css-minimizer-webpack-plugin",
     "reason": "# DEPRECATED. Please migrate to https://github.com/webpack/minimizer-webpack-plugin#css",
-    "position": 1
+    "line": 1
   },
   {
     "name": "cuid",
     "reason": "## Status: Deprecated due to security. Use [Cuid2](https://github.com/paralleldrive/cuid2), instead.",
-    "position": 6
+    "line": 6
   },
   {
     "name": "cypress-xpath",
     "reason": "This repo has been deprecated and moved to [https://github.com/cypress-io/cypress/tree/develop/npm/xpath](https://github.com/cypress-io/cypress/tree/develop/npm/xpath).",
-    "position": 3
+    "line": 3
   },
   {
     "name": "d3-collection",
     "reason": "**Deprecation notice**: Use JavaScript’s built-in [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), [Set](https://developer.mozilla.org/en-US/docs/Web/JavaSc",
-    "position": 3
+    "line": 3
   },
   {
     "name": "d3-voronoi",
     "reason": "**Deprecation notice**: Consider using the newer [d3-delaunay](https://github.com/d3/d3-delaunay) instead of d3-voronoi. Based on [Delaunator](https://github.com/mapbox/delaunator), d3-delaunay is 5-1",
-    "position": 3
+    "line": 3
   },
   {
     "name": "debug-log",
     "reason": "# Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "deep-assign",
     "reason": "# DEPRECATED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "deep-strict-equal",
     "reason": "This package is deprecated as it's too much effort to keep it in sync with the Node.js implementation.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "deepcopy",
     "reason": "This package is no longer maintained.",
-    "position": 11
+    "line": 11
   },
   {
     "name": "depcheck",
     "reason": "Depcheck is no longer actively maintained",
-    "position": 4
+    "line": 4
   },
   {
     "name": "deprecated-decorator",
     "reason": "# Deprecated Decorator",
-    "position": 4
+    "line": 4
   },
   {
     "name": "derive-valtio",
     "reason": "> **⚠️ Deprecated**",
-    "position": 3
+    "line": 3
   },
   {
     "name": "desandro-matches-selector",
     "reason": "**DEPRECATION NOTICE**",
-    "position": 1
+    "line": 1
   },
   {
     "name": "di",
     "reason": "#### THIS PROJECT IS DEPRECATED, please consider using [angular/di](https://github.com/angular/di.js) instead.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "doctrine",
     "reason": "## Deprecation notice",
-    "position": 11
+    "line": 11
   },
   {
     "name": "domexception",
     "reason": "# domexception is deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "domready",
     "reason": "## Deprecation Notice",
-    "position": 12
+    "line": 12
   },
   {
     "name": "dottie",
     "reason": "# UNMAINTAINED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "duplexer",
     "reason": "# DEPRECATED.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "ecstatic",
     "reason": "# THIS PROJECT IS UNMAINTAINED AND DEPRECATED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "ejs-loader",
     "reason": "# Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "ember-ajax",
     "reason": "## :warning: Deprecated",
-    "position": 14
+    "line": 14
   },
   {
     "name": "ember-cli-eslint",
     "reason": "## 🔴 DEPRECATED 🔴",
-    "position": 17
+    "line": 17
   },
   {
     "name": "ember-cli-htmlbars-inline-precompile",
     "reason": "## **Deprecated**",
-    "position": 3
+    "line": 3
   },
   {
     "name": "ember-cli-template-lint",
     "reason": "## 🔴 DEPRECATED 🔴",
-    "position": 7
+    "line": 7
   },
   {
     "name": "ember-export-application-global",
     "reason": "## :warning: Deprecated",
-    "position": 13
+    "line": 13
   },
   {
     "name": "eslint-config-oclif-typescript",
     "reason": "**Deprecated** eslint-config for oclif typescript projects. Use [eslint-config-oclif](https://github.com/oclif/eslint-config-oclif) instead.",
-    "position": 4
+    "line": 4
   },
   {
     "name": "eslint-config-vue",
     "reason": "# DEPRECATED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "eslint-loader",
     "reason": "## :warning: DEPRECATED",
-    "position": 18
+    "line": 18
   },
   {
     "name": "eslint-plugin-deprecation",
     "reason": "This repo is no longer maintained and is archived.",
-    "position": 4
+    "line": 4
   },
   {
     "name": "eslint-plugin-filenames",
     "reason": "This project is no longer actively maintained",
-    "position": 3
+    "line": 3
   },
   {
     "name": "eslint-plugin-node",
     "reason": "This project has been no longer maintained.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "eslint-plugin-standard",
     "reason": "### Deprecated: This package isn't used by `standard` anymore, as of `standard` v16. See: https://github.com/standard/standard/issues/1316",
-    "position": 12
+    "line": 12
   },
   {
     "name": "eslint-restricted-globals",
     "reason": "This package is deprecated.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "estree-walker",
     "reason": "# This package is deprecated. Use [zimmerframe](https://github.com/Rich-Harris/zimmerframe/) instead",
-    "position": 1
+    "line": 1
   },
   {
     "name": "ethereumjs-abi",
     "reason": "This library is deprecated and will not be further maintained.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "event-target-polyfill",
     "reason": "# NO LONGER MAINTAINED",
-    "position": 4
+    "line": 4
   },
   {
     "name": "express-graphql",
     "reason": "# This library is deprecated",
-    "position": 3
+    "line": 3
   },
   {
     "name": "extract-text-webpack-plugin",
     "reason": "# DEPRECATED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "fluent-ffmpeg",
     "reason": "## Fluent-ffmpeg is now deprecated",
-    "position": 6
+    "line": 6
   },
   {
     "name": "formatio",
     "reason": "# formatio - DEPRECATED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "fs-access",
     "reason": "# Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "fs-promise",
     "reason": "fs-promise is now deprecated.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "gatsby-image",
     "reason": "## ⚠️ This package is now deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "gcs-resumable-upload",
     "reason": "This repository has been deprecated.",
-    "position": 2
+    "line": 2
   },
   {
     "name": "gitbook-cli",
     "reason": "> ## ⚠️ Deprecation warning:",
-    "position": 1
+    "line": 1
   },
   {
     "name": "gm",
     "reason": "# 2025-02-24 This project is not maintained",
-    "position": 1
+    "line": 1
   },
   {
     "name": "graphql-fields",
     "reason": "# Deprecation Notice",
-    "position": 1
+    "line": 1
   },
   {
     "name": "grunt-autoprefixer",
     "reason": "# Deprecation notice",
-    "position": 1
+    "line": 1
   },
   {
     "name": "gtoken",
     "reason": "THIS PACKAGE IS DEPRECATED.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "gulp-browserify",
     "reason": "## NOTE: THIS PLUGIN IS NO LONGER MAINTAINED , checkout [gulp-bro](https://github.com/ngryman/gulp-bro) for a similar plugin, or the [recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes) ",
-    "position": 1
+    "line": 1
   },
   {
     "name": "gulp-clean",
     "reason": "Deprecated in favor of [https://github.com/gulpjs/gulp/blob/master/docs/recipes/delete-files-folder.md](https://github.com/gulpjs/gulp/blob/master/docs/recipes/delete-files-folder.md)",
-    "position": 1
+    "line": 1
   },
   {
     "name": "gulp-karma",
     "reason": "## Deprecated",
-    "position": 5
+    "line": 5
   },
   {
     "name": "gulp-rimraf",
     "reason": "Deprecated in favor of [https://github.com/gulpjs/gulp/blob/master/docs/recipes/delete-files-folder.md](https://github.com/gulpjs/gulp/blob/master/docs/recipes/delete-files-folder.md)",
-    "position": 4
+    "line": 4
   },
   {
     "name": "gulp-util",
     "reason": "This module has been deprecated.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "hast-to-hyperscript",
     "reason": "Deprecated: use [`hast-util-to-jsx-runtime`][hast-util-to-jsx-runtime] instead,",
-    "position": 3
+    "line": 3
   },
   {
     "name": "html-minifier",
     "reason": "## ⚠️ This version of html-minifier is no longer maintained. For an up-to-date version with [new features and critical security fixes](https://github.com/j9t/html-minifier-next/blob/main/CHANGELOG.md)",
-    "position": 3
+    "line": 3
   },
   {
     "name": "humps",
     "reason": "This project is no longer maintained.",
-    "position": 4
+    "line": 4
   },
   {
     "name": "i18next-parser",
     "reason": "## Deprecation notice",
-    "position": 8
+    "line": 8
   },
   {
     "name": "idx",
     "reason": "This module is deprecated and no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "image-webpack-loader",
     "reason": "# DEPRECATED",
-    "position": 5
+    "line": 5
   },
   {
     "name": "imap-simple",
     "reason": "This library is no longer maintained and has been archived.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "inflight",
     "reason": "# deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "ipfs-http-client",
     "reason": "> # ⛔️ DEPRECATED: [js-IPFS](https://github.com/ipfs/js-ipfs) has been superseded by [Helia](https://github.com/ipfs/helia)",
-    "position": 1
+    "line": 1
   },
   {
     "name": "is-finite",
     "reason": "Deprecated as this is now natively available in all modern browsers and Node.js versions.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "isemail",
     "reason": "Deprecated: this project is no longer maintained. If you're looking for an email validator, there are many available on npm. I'm confident that [joi's implementation](https://joi.dev/api/?v=17.13.3#st",
-    "position": 5
+    "line": 5
   },
   {
     "name": "isparta",
     "reason": "# isparta [![Build Status][travis-image]][travis-url] [![NPM version][npm-image]][npm-url] [![No Maintenance Intended][unmaintained-image]][unmaintained-url]",
-    "position": 18
+    "line": 18
   },
   {
     "name": "isparta-loader",
     "reason": "# Package is deprecated, use [istanbul-instrumenter-loader](https://github.com/deepsweet/istanbul-instrumenter-loader)",
-    "position": 1
+    "line": 1
   },
   {
     "name": "jaeger-client",
     "reason": "# 🛑 This library is DEPRECATED!",
-    "position": 3
+    "line": 3
   },
   {
     "name": "jest-environment-jsdom-fourteen",
     "reason": "## Deprecated - use `jest-environment-jsdom@26` instead.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "jest-serializer",
     "reason": "> DEPRECATED: Use `v8` APIs directly: https://nodejs.org/api/v8.html#serialization-api",
-    "position": 3
+    "line": 3
   },
   {
     "name": "json-schema-to-zod",
     "reason": "# Notice of deprecation",
-    "position": 6
+    "line": 6
   },
   {
     "name": "json2csv",
     "reason": "THIS PACKAGE IS ABANDONED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "json3",
     "reason": "# 🚨 Unmaintained 🚨",
-    "position": 1
+    "line": 1
   },
   {
     "name": "karma",
     "reason": "## Karma is deprecated and is not accepting new features or general bug fixes.",
-    "position": 12
+    "line": 12
   },
   {
     "name": "karma-babel-preprocessor",
     "reason": "## Deprecation notice",
-    "position": 9
+    "line": 9
   },
   {
     "name": "karma-firefox-launcher",
     "reason": "## `karma-firefox-launcher` is deprecated and is not accepting new features or general bug fixes.",
-    "position": 11
+    "line": 11
   },
   {
     "name": "karma-typescript",
     "reason": "# Deprecated",
-    "position": 6
+    "line": 6
   },
   {
     "name": "kew",
     "reason": "## ⚠️⚠️ Kew is deprecated and unmaintained. Please rely on native Promises or an up-to-date Promise library instead. ⚠️⚠️",
-    "position": 4
+    "line": 4
   },
   {
     "name": "ky-universal",
     "reason": "This package is deprecated.",
-    "position": 5
+    "line": 5
   },
   {
     "name": "langfuse",
     "reason": "This SDK is deprecated. The Langfuse TypeScript SDK was completely rewritten and released as v4 in August 2025.",
-    "position": 8
+    "line": 8
   },
   {
     "name": "langfuse-core",
     "reason": "This SDK is deprecated. The Langfuse TypeScript SDK was completely rewritten and released as v4 in August 2025.",
-    "position": 8
+    "line": 8
   },
   {
     "name": "less-plugin-npm-import",
     "reason": "**DEPRECATED: Less 3+ in a Node environment will search NPM paths by default.**",
-    "position": 1
+    "line": 1
   },
   {
     "name": "level-fix-range",
     "reason": "this module is deprecated in favor of [ltgt](https://github.com/dominictarr/ltgt)",
-    "position": 5
+    "line": 5
   },
   {
     "name": "libxmljs2",
     "reason": "# NO LONGER MAINTAINED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "mailcomposer",
     "reason": "# NB! This project is deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "markdown",
     "reason": "## Notice: Unmaintained",
-    "position": 5
+    "line": 5
   },
   {
     "name": "math-log2",
     "reason": "Deprecated as this is now natively available in all modern browsers and Node.js versions.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "mdast-util-footnote",
     "reason": "Deprecated: use [`mdast-util-gfm`][mdast-util-gfm] instead.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "memory-fs",
     "reason": "> DEPRECATED: use [memfs](https://github.com/streamich/memfs) instead.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "merge-class-names",
     "reason": "This package is no longer maintained.",
-    "position": 7
+    "line": 7
   },
   {
     "name": "micromark-extension-footnote",
     "reason": "Deprecated: this package is no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "mkdirp-promise",
     "reason": "<h1>⚠️ This package is broken and no longer maintained</h1>",
-    "position": 3
+    "line": 3
   },
   {
     "name": "mocha-jsdom",
     "reason": "> _Deprecation notice:_",
-    "position": 1
+    "line": 1
   },
   {
     "name": "mocha-loader",
     "reason": "# DEPRECATED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "mocha-phantomjs",
     "reason": "## Deprecated",
-    "position": 3
+    "line": 3
   },
   {
     "name": "mock-require",
     "reason": "# ⚠️ Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "moize",
     "reason": "This library has been deprecated in favor of micro-memoize, which as-of version 5 incorporates most of the functionality that this library offers at nearly half the size and better speed.",
-    "position": 2
+    "line": 2
   },
   {
     "name": "multibase",
     "reason": "⛔️ DEPRECATED: This module has been superseded by the [multiformats](https://github.com/multiformats/js-multiformats) module <!-- omit in toc -->",
-    "position": 1
+    "line": 1
   },
   {
     "name": "multicodec",
     "reason": "# ⛔️ DEPRECATED: This module has been superseded by the [multiformats](https://github.com/multiformats/js-multiformats) module <!-- omit in toc -->",
-    "position": 1
+    "line": 1
   },
   {
     "name": "nanocolors",
     "reason": "# Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "nedb",
     "reason": "this library is no longer maintained, and may have bugs and security issues.",
-    "position": 5
+    "line": 5
   },
   {
     "name": "next-mdx-remote",
     "reason": "## ⚠️ This project is archived and is no longer supported ⚠️",
-    "position": 11
+    "line": 11
   },
   {
     "name": "nightmare",
     "reason": "This library is no longer maintained.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "node-domexception",
     "reason": "# Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "node-libs-browser",
     "reason": "This library is deprecated and won't accept Pull Requests that include Breaking Changes or new Features.",
-    "position": 5
+    "line": 5
   },
   {
     "name": "node-loader",
     "reason": "# DEPRECATED in favor of https://github.com/webpack/webpack/tree/main/examples/nodejs-addons",
-    "position": 1
+    "line": 1
   },
   {
     "name": "node-sass-chokidar",
     "reason": "# DEPRECATED",
-    "position": 4
+    "line": 4
   },
   {
     "name": "node-status-codes",
     "reason": "# Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "nomnom",
     "reason": "# deprecation notice",
-    "position": 1
+    "line": 1
   },
   {
     "name": "normalizr",
     "reason": "# 📣 Normalizr is no longer maintained",
-    "position": 3
+    "line": 3
   },
   {
     "name": "npx",
     "reason": "⚠️ DEPRECATED: This project has been deprecated - **npx** is now part of the **[npm cli](https://github.com/npm/cli)**",
-    "position": 1
+    "line": 1
   },
   {
     "name": "number-is-integer",
     "reason": "Deprecated as this is now natively available in all modern browsers and Node.js versions.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "number-is-nan",
     "reason": "Deprecated as this is now natively available in all modern browsers and Node.js versions.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "nwb",
     "reason": "# nwb is deprecated and unmaintained",
-    "position": 1
+    "line": 1
   },
   {
     "name": "only-allow",
     "reason": "> ## :warning:DEPRECATED:",
-    "position": 1
+    "line": 1
   },
   {
     "name": "open-browser-webpack-plugin",
     "reason": "# THIS PACKAGE IS NOT MAINTAINED ANYMORE",
-    "position": 1
+    "line": 1
   },
   {
     "name": "optimist",
     "reason": "# DEPRECATION NOTICE",
-    "position": 1
+    "line": 1
   },
   {
     "name": "os-homedir",
     "reason": "# Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "os-tmpdir",
     "reason": "**Deprecated:** This is not needed anymore. `require('os').tmpdir()` in Node.js 4 and up is good.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "p-finally",
     "reason": "Deprecated as it's now available in all modern browsers and Node.js versions.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "parsejson",
     "reason": "## This repo is no longer maintained.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "parsimmon",
     "reason": "PARSIMMON IS CURRENTLY UNMAINTAINED !!!",
-    "position": 8
+    "line": 8
   },
   {
     "name": "path-is-absolute",
     "reason": "# Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "peek-readable",
     "reason": "> ### This modules is deprecated.",
-    "position": 12
+    "line": 12
   },
   {
     "name": "phin",
     "reason": "## Deprecated",
-    "position": 9
+    "line": 9
   },
   {
     "name": "pkg",
     "reason": "pkg has been deprecated with 5.8.1 as the last release.",
-    "position": 4
+    "line": 4
   },
   {
     "name": "pkg-fetch",
     "reason": "pkg-fetch has been deprecated with 3.5 as the last release.",
-    "position": 4
+    "line": 4
   },
   {
     "name": "postcss-color-function",
     "reason": "## Deprecated",
-    "position": 5
+    "line": 5
   },
   {
     "name": "postcss-cssnext",
     "reason": "## `postcss-cssnext` has been deprecated in favor of `postcss-preset-env`",
-    "position": 1
+    "line": 1
   },
   {
     "name": "prebuild",
     "reason": "This module is deprecated and no longer maintained.",
-    "position": 4
+    "line": 4
   },
   {
     "name": "prebuild-install",
     "reason": "This module is deprecated and no longer maintained, along with prebuild.",
-    "position": 4
+    "line": 4
   },
   {
     "name": "radium",
     "reason": "This project is no longer maintained by Formidable.",
-    "position": 24
+    "line": 24
   },
   {
     "name": "react-apollo",
     "reason": "THIS PROJECT HAS BEEN DEPRECATED ⚠️",
-    "position": 11
+    "line": 11
   },
   {
     "name": "react-date-range",
     "reason": "This project is currently unmaintained because the original maintainers are busy with other things.",
-    "position": 11
+    "line": 11
   },
   {
     "name": "react-fontawesome",
     "reason": "This project is no longer actively maintained.",
-    "position": 13
+    "line": 13
   },
   {
     "name": "react-native-markdown-display",
     "reason": "This library is no longer actively maintained.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "react-overlays",
     "reason": "this repo is deprecated and not receiving any more updates.",
-    "position": 2
+    "line": 2
   },
   {
     "name": "react-prop-types",
     "reason": "# DEPRECATED!!!!!!",
-    "position": 2
+    "line": 2
   },
   {
     "name": "react-router-redux",
     "reason": "This project is no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "react-sortable-hoc",
     "reason": "This library is no longer actively maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "react-sticky",
     "reason": "#### Update No longer actively maintained:",
-    "position": 5
+    "line": 5
   },
   {
     "name": "react-tap-event-plugin",
     "reason": "# DEPRECATED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "react-test-renderer",
     "reason": "## Deprecation notice",
-    "position": 3
+    "line": 3
   },
   {
     "name": "react-transform-catch-errors",
     "reason": ">## This Project Is Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "react-transform-hmr",
     "reason": ">## This Project Is Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "reactify",
     "reason": "**DEPRECATED:** Use [babelify](https://github.com/babel/babelify) instead (make sure you configured Babel with babel-preset-react).",
-    "position": 3
+    "line": 3
   },
   {
     "name": "recharts-scale",
     "reason": "# THIS LIBRARY IS NOT MAINTAINED - recharts-scale has moved into the recharts repository",
-    "position": 1
+    "line": 1
   },
   {
     "name": "redux-mock-store",
     "reason": "# Deprecation notice",
-    "position": 1
+    "line": 1
   },
   {
     "name": "remark-external-links",
     "reason": "Deprecated: this package is no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "remark-footnotes",
     "reason": "Deprecated: this package is no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "remark-slug",
     "reason": "Deprecated: this package is no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "request",
     "reason": "# Deprecated!",
-    "position": 1
+    "line": 1
   },
   {
     "name": "request-promise",
     "reason": "# Deprecated!",
-    "position": 13
+    "line": 13
   },
   {
     "name": "request-promise-native",
     "reason": "# Deprecated!",
-    "position": 13
+    "line": 13
   },
   {
     "name": "resolve-url",
     "reason": "Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "rollup-plugin-alias",
     "reason": "This repository is no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "rollup-plugin-babel",
     "reason": "This repository is no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "rollup-plugin-babel-minify",
     "reason": "## ☠️ Project is deprecated! ☠️",
-    "position": 7
+    "line": 7
   },
   {
     "name": "rollup-plugin-buble",
     "reason": "This repository is no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "rollup-plugin-commonjs",
     "reason": "This repository is no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "rollup-plugin-inject",
     "reason": "This repository is no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "rollup-plugin-json",
     "reason": "This repository is no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "rollup-plugin-multi-entry",
     "reason": "This repository is no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "rollup-plugin-node-resolve",
     "reason": "This repository is no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "rollup-plugin-replace",
     "reason": "This repository is no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "rollup-plugin-ts",
     "reason": "# This library has been deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "rollup-plugin-typescript",
     "reason": "This repository is no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "rollup-plugin-uglify-es",
     "reason": "DEPRECATED, see [rollup-plugin-terser](https://github.com/TrySound/rollup-plugin-terser) instead.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "rollup-plugin-url",
     "reason": "This repository is no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "rollup-pluginutils",
     "reason": "This repository is no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "rollup-watch",
     "reason": "# This package is now deprecated — Rollup exports a `watch` method as of 0.46",
-    "position": 1
+    "line": 1
   },
   {
     "name": "sass-lint",
     "reason": "# THIS PROJECT IS CURRENTLY UNMAINTAINED - LAST DEVELOPMENT/STABLE RELEASE (OCTOBER 2017)",
-    "position": 1
+    "line": 1
   },
   {
     "name": "script-ext-html-webpack-plugin",
     "reason": "This project is no longer maintained.",
-    "position": 10
+    "line": 10
   },
   {
     "name": "script-loader",
     "reason": "# ! NO LONGER MAINTAINED !",
-    "position": 6
+    "line": 6
   },
   {
     "name": "shortid",
     "reason": "## **shortid is deprecated, because the architecture is unsafe. we instead recommend [Nano ID](https://github.com/ai/nanoid/), which has the advantage of also being significantly faster than shortid**",
-    "position": 7
+    "line": 7
   },
   {
     "name": "sjcl",
     "reason": "Deprecation status",
-    "position": 4
+    "line": 4
   },
   {
     "name": "source-map-loader",
     "reason": "# DEPRECATED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "source-map-resolve",
     "reason": "Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "source-map-url",
     "reason": "Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "sourcemap-codec",
     "reason": "# deprecated — please use [@jridgewell/sourcemap-codec](https://github.com/jridgewell/sourcemap-codec) instead",
-    "position": 1
+    "line": 1
   },
   {
     "name": "speakeasy",
     "reason": "# NOT MAINTAINED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "sqlite3",
     "reason": "This repository is currently unmaintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "standard-version",
     "reason": "standard-version is deprecated.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "stream-to-promise",
     "reason": "> **Deprecated.** Node.js now ships promise-based stream helpers in core, so this",
-    "position": 4
+    "line": 4
   },
   {
     "name": "string-similarity",
     "reason": "# ⚰️ ⚰️ DEPRECATED ⚰️ ⚰️",
-    "position": 1
+    "line": 1
   },
   {
     "name": "subscriptions-transport-ws",
     "reason": "# `subscriptions-transport-ws` is no longer maintained",
-    "position": 1
+    "line": 1
   },
   {
     "name": "svg-inline-loader",
     "reason": "# ! NO LONGER MAINTAINED !",
-    "position": 7
+    "line": 7
   },
   {
     "name": "systemjs-builder",
     "reason": "This project has been deprecated as of SystemJS 2.0.",
-    "position": 4
+    "line": 4
   },
   {
     "name": "time-grunt",
     "reason": "## Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "travis-deploy-once",
     "reason": "## :warning: Deprecation Notice :warning:",
-    "position": 9
+    "line": 9
   },
   {
     "name": "trim-right",
     "reason": "Deprecated in favor of `String#trimEnd`.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "tsc",
     "reason": "DEPRECATED. Use `ntypescript` [https://www.npmjs.com/package/ntypescript](https://www.npmjs.com/package/ntypescript) as it follows a simple `original` -> `noriginal` name transform for `require` as we",
-    "position": 1
+    "line": 1
   },
   {
     "name": "tsconfck",
     "reason": "# Important notice - tsconfck is unmaintained",
-    "position": 1
+    "line": 1
   },
   {
     "name": "tslint",
     "reason": "TSLint is deprecated.",
-    "position": 10
+    "line": 10
   },
   {
     "name": "tslint-config-airbnb",
     "reason": "## This package is deprecated",
-    "position": 10
+    "line": 10
   },
   {
     "name": "tslint-eslint-rules",
     "reason": "# DEPRECATED",
-    "position": 9
+    "line": 9
   },
   {
     "name": "ttypescript",
     "reason": "# Deprecation Notice",
-    "position": 1
+    "line": 1
   },
   {
     "name": "tv4",
     "reason": "This project is no longer actively maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "typedoc-default-themes",
     "reason": "# Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "typescript-eslint-parser",
     "reason": "# Deprecated: TypeScript ESLint Parser",
-    "position": 1
+    "line": 1
   },
   {
     "name": "typings",
     "reason": "## Deprecation Notice: Regarding TypeScript@2.0",
-    "position": 10
+    "line": 10
   },
   {
     "name": "uglifyjs-webpack-plugin",
     "reason": "# DEPRECATED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "urix",
     "reason": "Deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "user-home",
     "reason": "Deprecated. Just use `import {homedir} from 'os';`.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "uuid-browser",
     "reason": "# ⚠️ THIS IS DEPRECATED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "uuid-parse",
     "reason": "## NOTE: This module is no longer maintained",
-    "position": 3
+    "line": 3
   },
   {
     "name": "vaul",
     "reason": "This repo is unmaintained.",
-    "position": 2
+    "line": 2
   },
   {
     "name": "vscode",
     "reason": "## ⚠️ Deprecated, use @types/vscode and vscode-test instead ⚠️",
-    "position": 3
+    "line": 3
   },
   {
     "name": "vue-awesome-swiper",
     "reason": "### DEPRECATED ⚠️",
-    "position": 28
+    "line": 28
   },
   {
     "name": "vue-class-component",
     "reason": "This library is no longer actively maintained.",
-    "position": 6
+    "line": 6
   },
   {
     "name": "vue-clipboard2",
     "reason": "## DEPRECATED",
-    "position": 5
+    "line": 5
   },
   {
     "name": "vue-html-loader",
     "reason": "# DEPRECATED",
-    "position": 1
+    "line": 1
   },
   {
     "name": "vue-property-decorator",
     "reason": "This library is no longer actively maintained.",
-    "position": 4
+    "line": 4
   },
   {
     "name": "vue-quill-editor",
     "reason": "### DEPRECATED ‼️",
-    "position": 17
+    "line": 17
   },
   {
     "name": "w3c-hr-time",
     "reason": "# w3c-hr-time is deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "web3-provider-engine",
     "reason": "This package has been deprecated.",
-    "position": 6
+    "line": 6
   },
   {
     "name": "whatwg-encoding",
     "reason": "# `whatwg-encoding` is deprecated",
-    "position": 1
+    "line": 1
   },
   {
     "name": "wrench",
     "reason": "This Project Is Deprecated!",
-    "position": 1
+    "line": 1
   },
   {
     "name": "xdate",
     "reason": "This package is no longer actively maintained",
-    "position": 8
+    "line": 8
   },
   {
     "name": "xtend",
     "reason": "# DEPRECATED: xtend",
-    "position": 1
+    "line": 1
   },
   {
     "name": "yaml-js",
     "reason": "This project is now abandoned and the repository archived.",
-    "position": 4
+    "line": 4
   },
   {
     "name": "zod-to-json-schema",
     "reason": "## Notice of deprecation",
-    "position": 6
+    "line": 6
   },
   {
     "name": "@snyk/github-codeowners",
     "reason": "This repository and the associated npm package are no longer maintained.",
-    "position": 3
+    "line": 3
   },
   {
     "name": "elasticsearch",
     "reason": "This client is no longer maintained.",
-    "position": 1
+    "line": 1
   },
   {
     "name": "node-nats-streaming",
     "reason": "It is no longer supported and has been replaced by [Jetstream](https://docs.nats.io/nats-concepts/jetstream)",
-    "position": 9
+    "line": 9
   },
   {
     "name": "path-platform",
     "reason": "This project is archived and no longer maintained.",
-    "position": 1
+    "line": 1
   }
 ]
