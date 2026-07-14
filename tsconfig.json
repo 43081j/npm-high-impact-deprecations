@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "./lib",
+    "noEmit": true,
     "rootDir": "./src",
     "module": "node18",
     "target": "esnext",
