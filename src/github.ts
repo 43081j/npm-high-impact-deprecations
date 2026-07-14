@@ -13,6 +13,8 @@ export interface GithubRepo {
 export interface Manifest {
   repository?: string | { url?: string; directory?: string } | undefined;
   dist?: { tarball?: string } | undefined;
+  /** Set by npm to the deprecation message when the version is deprecated. */
+  deprecated?: string | undefined;
 }
 
 export function sleep(ms: number): Promise<void> {
