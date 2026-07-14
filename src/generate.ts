@@ -3,10 +3,15 @@ import { mkdir, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import {
+  type Manifest,
+  REGISTRY,
+  fetchReadme,
+  fetchWithRetry,
+  parseGithubRepo,
+} from './github.ts';
 
 const FAST_NPM_META = 'https://npm.antfu.dev';
-const REGISTRY = 'https://registry.npmjs.org';
-const RAW_GITHUB = 'https://raw.githubusercontent.com';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const README_DIR = join(ROOT, 'readmes');
@@ -15,46 +20,6 @@ const README_DIR = join(ROOT, 'readmes');
 const VERSION_BATCH_SIZE = 50;
 /** Concurrent package downloads. */
 const CONCURRENCY = 20;
-/** README filenames tried against GitHub raw before falling back to the tarball. */
-const RAW_README_NAMES = ['README.md', 'readme.md', 'Readme.md'];
-
-interface GithubRepo {
-  owner: string;
-  repo: string;
-  directory: string | undefined;
-}
-
-interface Manifest {
-  repository?: string | { url?: string; directory?: string } | undefined;
-  dist?: { tarball?: string } | undefined;
-}
-
-function sleep(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
-
-async function fetchWithRetry(
-  url: string,
-  init: RequestInit = {},
-  retries = 3,
-): Promise<Response> {
-  for (let attempt = 0; ; attempt++) {
-    try {
-      const res = await fetch(url, {
-        ...init,
-        signal: AbortSignal.timeout(30_000),
-      });
-      if ((res.status === 429 || res.status >= 500) && attempt < retries) {
-        await sleep(500 * 2 ** attempt);
-        continue;
-      }
-      return res;
-    } catch (err) {
-      if (attempt >= retries) throw err;
-      await sleep(500 * 2 ** attempt);
-    }
-  }
-}
 
 async function mapWithConcurrency<T>(
   items: readonly T[],
@@ -117,48 +82,6 @@ async function resolveVersions(
   return versions;
 }
 
-/** Extracts GitHub owner/repo/directory from an npm `repository` field. */
-function parseGithubRepo(manifest: Manifest): GithubRepo | undefined {
-  const repository = manifest.repository;
-  if (!repository) return undefined;
-
-  const raw =
-    typeof repository === 'string' ? repository : (repository.url ?? '');
-  const directory =
-    typeof repository === 'object' ? repository.directory : undefined;
-
-  // Normalise the many forms npm allows into `owner/repo`.
-  const normalised = raw
-    .replace(/^git\+/, '')
-    .replace(/^github:/, 'https://github.com/')
-    .replace(/^git@github\.com:/, 'https://github.com/')
-    .replace(/^git:\/\//, 'https://');
-
-  const match = /github\.com[/:]([^/]+)\/([^/#]+?)(?:\.git)?(?:[/#].*)?$/.exec(
-    normalised,
-  );
-  if (!match) return undefined;
-
-  const [, owner, repo] = match;
-  if (!owner || !repo) return undefined;
-  return { owner, repo, directory: directory || undefined };
-}
-
-/** Attempts to read the README from GitHub's raw CDN on the default branch. */
-async function fetchReadmeFromGithub(
-  gh: GithubRepo,
-): Promise<string | undefined> {
-  const prefix = gh.directory ? `${gh.directory.replace(/^\/|\/$/g, '')}/` : '';
-  for (const name of RAW_README_NAMES) {
-    const url = `${RAW_GITHUB}/${gh.owner}/${gh.repo}/HEAD/${prefix}${name}`;
-    const res = await fetchWithRetry(url);
-    if (res.ok) return res.text();
-    // 404 means "not this filename"; keep the body drained and try the next.
-    await res.arrayBuffer().catch(() => undefined);
-  }
-  return undefined;
-}
-
 async function main(): Promise<void> {
   await mkdir(README_DIR, { recursive: true });
 
@@ -196,16 +119,16 @@ async function main(): Promise<void> {
       }
       stats.github++;
 
-      let readme = await fetchReadmeFromGithub(gh);
+      const readme = await fetchReadme(gh);
 
-      if (readme === undefined || readme.trim() === '') {
+      if (readme === undefined || readme.text.trim() === '') {
         stats.missing++;
         return;
       }
 
       const path = readmePath(name);
       await mkdir(dirname(path), { recursive: true });
-      await writeFile(path, readme);
+      await writeFile(path, readme.text);
       stats.saved++;
     } catch {
       stats.errors++;
