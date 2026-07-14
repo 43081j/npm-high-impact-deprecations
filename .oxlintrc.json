@@ -9,7 +9,9 @@
     "perf": "error",
     "suspicious": "error"
   },
-  "rules": {},
+  "rules": {
+    "no-await-in-loop": "off"
+  },
   "env": {
     "builtin": true
   }
