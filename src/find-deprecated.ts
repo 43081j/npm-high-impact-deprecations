@@ -65,7 +65,7 @@ function isPackageDeprecationHeading(
   // Ignore a leading self-name so "`pkg` is deprecated" keeps its signal while
   // a title that is *only* the name (e.g. the `deprecated` package) is dropped.
   const withoutName = core
-    .replace(new RegExp(`^${escapeRegExp(base)}\\b[\\s:–—-]*`, 'i'), '')
+    .replace(new RegExp(`^${RegExp.escape(base)}\\b[\\s:–—-]*`, 'i'), '')
     .trim();
   if (withoutName === '') return false;
   const lower = withoutName.toLowerCase();
@@ -95,10 +95,6 @@ function isPackageDeprecationHeading(
 const DEPRECATED_STATE =
   '(?:deprecated|abandoned|unmaintained|discontinued|no longer\\s+' +
   '(?:maintained|supported|developed|actively\\s+\\w+|relevant|in use|available))';
-
-function escapeRegExp(value: string): string {
-  return value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-}
 
 /** Removes leading emoji, badges, markdown emphasis, and label prefixes. */
 function stripClauseLead(text: string): string {
@@ -143,8 +139,8 @@ function statesPackageDeprecated(
   const subject =
     `(?:this|the)\\s+(?:package|module|library|project|repo(?:sitory)?|` +
     `plugin|tool|action|cli|component|sdk|framework)|` +
-    escapeRegExp(packageName) +
-    `|${escapeRegExp('`' + packageName + '`')}`;
+    RegExp.escape(packageName) +
+    `|${RegExp.escape('`' + packageName + '`')}`;
   const statement = new RegExp(
     `^(?:${subject})\\b(?:\\s*\\([^)]*\\))?\\s+` +
       `(?:is|has|have|was|were|are)\\s+(?:been\\s+|now\\s+|also\\s+|currently\\s+)*` +
