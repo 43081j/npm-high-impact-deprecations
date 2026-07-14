@@ -27,7 +27,7 @@ async function main(): Promise<void> {
 
   const rows = entries.map(({ name, url }) => {
     const pkg = `[\`${escapeCell(name)}\`](${NPM_BASE}/${name})`;
-    const notice = url ? `[readme:${url.split('#L')[1]}](${url})` : '—';
+    const notice = url ? `[readme:${url.split('#L')[1]}](${url})` : '-';
     return `| ${pkg} | ${notice} |`;
   });
 

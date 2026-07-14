@@ -97,7 +97,14 @@ async function main(): Promise<void> {
   const resolved = pending.filter((name) => versions.has(name));
   console.log(`Resolved ${resolved.length} versions. Downloading READMEs...`);
 
-  const stats = { github: 0, nonGithub: 0, saved: 0, missing: 0, errors: 0 };
+  const stats = {
+    github: 0,
+    nonGithub: 0,
+    deprecated: 0,
+    saved: 0,
+    missing: 0,
+    errors: 0,
+  };
   let processed = 0;
 
   await mapWithConcurrency(resolved, CONCURRENCY, async (name) => {
@@ -111,6 +118,16 @@ async function main(): Promise<void> {
         return;
       }
       const manifest = (await manifestRes.json()) as Manifest;
+
+      // Only interested in soft deprecations: skip anything npm already flags
+      // as hard-deprecated on the registry.
+      if (
+        typeof manifest.deprecated === 'string' &&
+        manifest.deprecated.trim() !== ''
+      ) {
+        stats.deprecated++;
+        return;
+      }
 
       const gh = parseGithubRepo(manifest);
       if (!gh) {
@@ -137,6 +154,7 @@ async function main(): Promise<void> {
         console.log(
           `\rDownloading: ${processed}/${resolved.length} ` +
             `(saved ${stats.saved}, non-github ${stats.nonGithub}, ` +
+            `deprecated ${stats.deprecated}, ` +
             `missing ${stats.missing}, errors ${stats.errors})`,
         );
       }

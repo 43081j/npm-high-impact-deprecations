@@ -1,20 +1,10 @@
 [
   {
-    "name": "@apollo/server-plugin-landing-page-graphql-playground",
-    "reason": "This package is deprecated and exists for v4 migration purposes only.",
-    "line": 3
-  },
-  {
     "name": "@assemblyscript/loader",
     "reason": "**DEPRECATION NOTICE:** The loader has been deprecated in AssemblyScript 0.20. It will likely continue to work for a while, but it is recommended to switch to the new [static bindings](https://www.ass",
     "line": 5,
     "repo": "AssemblyScript/assemblyscript",
     "url": "https://github.com/AssemblyScript/assemblyscript/blob/HEAD/lib/loader/README.md#L5"
-  },
-  {
-    "name": "@aws-cdk/assert",
-    "reason": "This library has been deprecated.",
-    "line": 12
   },
   {
     "name": "@aws-sdk/middleware-signing",
@@ -24,18 +14,6 @@
     "url": "https://github.com/aws/aws-sdk-js-v3/blob/HEAD/packages-internal/middleware-signing/README.md#L6"
   },
   {
-    "name": "@azure/ms-rest-js",
-    "reason": "This package has been deprecated in favor of the new Azure SDK packages from [Azure SDK for JavaScript](https://github.com/azure/azure-sdk-for-js).",
-    "line": 1,
-    "repo": "Azure/ms-rest-js",
-    "url": "https://github.com/Azure/ms-rest-js/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "@babel/polyfill",
-    "reason": "This package has been deprecated in favor of separate inclusion of required parts of [core-js](https://github.com/zloirock/core-js) and [regenerator-runtime](https://www.npmjs.com/package/regenerator-",
-    "line": 6
-  },
-  {
     "name": "@bugsnag/source-maps",
     "reason": "## This package is now deprecated - please use [bugsnag-cli](https://github.com/bugsnag/bugsnag-cli) to upload source maps to Bugsnag",
     "line": 3,
@@ -43,32 +21,11 @@
     "url": "https://github.com/bugsnag/bugsnag-source-maps/blob/HEAD/README.md#L3"
   },
   {
-    "name": "@cypress/browserify-preprocessor",
-    "reason": "## Note: This plugin is deprecated and Cypress will not be moving forward with development of the plugin.",
-    "line": 1,
-    "repo": "cypress-io/cypress-browserify-preprocessor",
-    "url": "https://github.com/cypress-io/cypress-browserify-preprocessor/blob/HEAD/README.md#L1"
-  },
-  {
     "name": "@endemolshinegroup/cosmiconfig-typescript-loader",
     "reason": "This package is no longer maintained: Please use [this fork from @Codex-](https://github.com//cosmiconfig-typescript-loader/) instead.",
     "line": 21,
     "repo": "EndemolShineGroup/cosmiconfig-typescript-loader",
     "url": "https://github.com/EndemolShineGroup/cosmiconfig-typescript-loader/blob/HEAD/README.md#L21"
-  },
-  {
-    "name": "@esbuild-kit/cjs-loader",
-    "reason": "> ## ⚠️ Project moved. Repository unmaintained.",
-    "line": 3,
-    "repo": "esbuild-kit/cjs-loader",
-    "url": "https://github.com/esbuild-kit/cjs-loader/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "@esbuild-kit/esm-loader",
-    "reason": "> ## ⚠️ Project moved. Repository unmaintained.",
-    "line": 3,
-    "repo": "esbuild-kit/esm-loader",
-    "url": "https://github.com/esbuild-kit/esm-loader/blob/HEAD/README.md#L3"
   },
   {
     "name": "@google-cloud/local-auth",
@@ -99,58 +56,6 @@
     "url": "https://github.com/material-components/material-components-web/blob/HEAD/README.md#L6"
   },
   {
-    "name": "@metamask/sdk",
-    "reason": "> **⚠️ DEPRECATED**",
-    "line": 3,
-    "repo": "MetaMask/metamask-sdk",
-    "url": "https://github.com/MetaMask/metamask-sdk/blob/HEAD/packages/sdk/README.md#L3"
-  },
-  {
-    "name": "@metamask/sdk-communication-layer",
-    "reason": "> **⚠️ DEPRECATED**",
-    "line": 3,
-    "repo": "MetaMask/metamask-sdk",
-    "url": "https://github.com/MetaMask/metamask-sdk/blob/HEAD/packages/sdk-communication-layer/README.md#L3"
-  },
-  {
-    "name": "@metamask/sdk-install-modal-web",
-    "reason": "> **⚠️ DEPRECATED**",
-    "line": 3,
-    "repo": "MetaMask/metamask-sdk",
-    "url": "https://github.com/MetaMask/metamask-sdk/blob/HEAD/packages/sdk-install-modal-web/README.md#L3"
-  },
-  {
-    "name": "@module-federation/data-prefetch",
-    "reason": "# Deprecated",
-    "line": 1
-  },
-  {
-    "name": "@newrelic/koa",
-    "reason": "This package has been deprecated.",
-    "line": 1,
-    "repo": "newrelic/node-newrelic-koa",
-    "url": "https://github.com/newrelic/node-newrelic-koa/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "@newrelic/superagent",
-    "reason": "This package has been deprecated.",
-    "line": 1,
-    "repo": "newrelic/node-newrelic-superagent",
-    "url": "https://github.com/newrelic/node-newrelic-superagent/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "@npmcli/ci-detect",
-    "reason": "THIS PACKAGE HAS BEEN DEPRECATED, USE ci-info INSTEAD",
-    "line": 3,
-    "repo": "npm/ci-detect",
-    "url": "https://github.com/npm/ci-detect/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "@nrwl/tao",
-    "reason": "@nrwl/tao has been deprecated in favor of [nx](https://www.npmjs.com/package/nx).",
-    "line": 3
-  },
-  {
     "name": "@oclif/color",
     "reason": "This package has been deprecated.",
     "line": 4,
@@ -165,16 +70,11 @@
     "url": "https://github.com/open-telemetry/opentelemetry-js-contrib/blob/HEAD/packages/host-metrics/README.md#L3"
   },
   {
-    "name": "@opentelemetry/instrumentation-fastify",
-    "reason": "This component is deprecated in favor of the official instrumentation package [@fastify/otel](https://www.npmjs.com/package/@fastify/otel), maintained by the Fastify authors.",
-    "line": 7
-  },
-  {
-    "name": "@sinonjs/formatio",
-    "reason": "# formatio - DEPRECATED",
-    "line": 1,
-    "repo": "sinonjs/formatio",
-    "url": "https://github.com/sinonjs/formatio/blob/HEAD/README.md#L1"
+    "name": "@sanity/insert-menu",
+    "reason": "This package is deprecated and no longer maintained.",
+    "line": 2,
+    "repo": "sanity-io/visual-editing",
+    "url": "https://github.com/sanity-io/visual-editing/blob/HEAD/packages/insert-menu/README.md#L2"
   },
   {
     "name": "@storybook/addon-console",
@@ -182,11 +82,6 @@
     "line": 25,
     "repo": "storybooks/storybook-addon-console",
     "url": "https://github.com/storybooks/storybook-addon-console/blob/HEAD/README.md#L25"
-  },
-  {
-    "name": "@storybook/addon-options",
-    "reason": "# Options Addon is deprecated as of Storybook 5.0",
-    "line": 1
   },
   {
     "name": "@storybook/addon-postcss",
@@ -210,35 +105,11 @@
     "url": "https://github.com/storybookjs/presets/blob/HEAD/packages/preset-scss/README.md#L1"
   },
   {
-    "name": "@stylelint/postcss-markdown",
-    "reason": "## Deprecated",
-    "line": 11,
-    "repo": "stylelint/postcss-markdown",
-    "url": "https://github.com/stylelint/postcss-markdown/blob/HEAD/README.md#L11"
-  },
-  {
     "name": "@supabase/ssr",
     "reason": "## Deprecated Packages",
     "line": 21,
     "repo": "supabase/ssr",
     "url": "https://github.com/supabase/ssr/blob/HEAD/README.md#L21"
-  },
-  {
-    "name": "@testing-library/jest-native",
-    "reason": "This package is deprecated and is no longer actively maintained.",
-    "line": 2,
-    "repo": "testing-library/jest-native",
-    "url": "https://github.com/testing-library/jest-native/blob/HEAD/README.md#L2"
-  },
-  {
-    "name": "@unhead/schema",
-    "reason": "# Deprecated: `@unhead/schema`",
-    "line": 1
-  },
-  {
-    "name": "@unhead/shared",
-    "reason": "# Deprecated: `@unhead/shared`",
-    "line": 1
   },
   {
     "name": "@unocss/preset-uno",
@@ -267,30 +138,6 @@
     "line": 1,
     "repo": "wessberg/rollup-plugin-ts",
     "url": "https://github.com/wessberg/rollup-plugin-ts/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "abab",
-    "reason": "# abab is deprecated",
-    "line": 1,
-    "repo": "jsdom/abab",
-    "url": "https://github.com/jsdom/abab/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "ape-covering",
-    "reason": "## !! NO LONGER MAINTAINED.",
-    "line": 1
-  },
-  {
-    "name": "ape-reporting",
-    "reason": "## !! NO LONGER MAINTAINED",
-    "line": 1,
-    "repo": "ape-repo/ape-reporting",
-    "url": "https://github.com/ape-repo/ape-reporting/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "ape-testing",
-    "reason": "## !! NO LONGER MAINTAINED",
-    "line": 1
   },
   {
     "name": "apollo-link",
@@ -342,25 +189,11 @@
     "url": "https://github.com/goofychris/art-template/blob/HEAD/README.md#L1"
   },
   {
-    "name": "async-cache",
-    "reason": "# Deprecated.",
-    "line": 3,
-    "repo": "isaacs/async-cache",
-    "url": "https://github.com/isaacs/async-cache/blob/HEAD/README.md#L3"
-  },
-  {
     "name": "autoprefixer-core",
     "reason": "autoprefixer-core was deprecated, use autoprefixer instead",
     "line": 1,
     "repo": "ai/autoprefixer-core",
     "url": "https://github.com/ai/autoprefixer-core/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "autoprefixer-loader",
-    "reason": "> ### :warning: This module is deprecated. [Autoprefixer official page](https://github.com/postcss/autoprefixer#webpack) recommends using [`postcss-loader`](https://github.com/postcss/postcss-loader) ",
-    "line": 5,
-    "repo": "passy/autoprefixer-loader",
-    "url": "https://github.com/passy/autoprefixer-loader/blob/HEAD/README.md#L5"
   },
   {
     "name": "babel-istanbul",
@@ -391,13 +224,6 @@
     "url": "https://github.com/bkonkle/babel-preset-es2015-loose/blob/HEAD/README.md#L3"
   },
   {
-    "name": "babel-preset-es2015-node4",
-    "reason": "**DEPRECATED: Use the awesome [babel-preset-env](https://github.com/babel/babel-preset-env)!**",
-    "line": 5,
-    "repo": "jbach/babel-preset-es2015-node4",
-    "url": "https://github.com/jbach/babel-preset-es2015-node4/blob/HEAD/README.md#L5"
-  },
-  {
     "name": "better-npm-run",
     "reason": "# ⚠️ ‼️ DEPRECATION WARNING ‼️ ⚠️",
     "line": 1,
@@ -410,27 +236,6 @@
     "line": 1,
     "repo": "spion/blue-tape",
     "url": "https://github.com/spion/blue-tape/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "buf-compare",
-    "reason": "# Deprecated",
-    "line": 1,
-    "repo": "sindresorhus/buf-compare",
-    "url": "https://github.com/sindresorhus/buf-compare/blob/HEAD/readme.md#L1"
-  },
-  {
-    "name": "buffer-equals",
-    "reason": "**Deprecated: Just use [`Buffer#equals()`](https://nodejs.org/api/buffer.html#buffer_buf_equals_otherbuffer). It has been available since Node.js 0.12.**",
-    "line": 5,
-    "repo": "sindresorhus/buffer-equals",
-    "url": "https://github.com/sindresorhus/buffer-equals/blob/HEAD/readme.md#L5"
-  },
-  {
-    "name": "buildmail",
-    "reason": "# NB! This project is deprecated",
-    "line": 1,
-    "repo": "andris9/buildmail",
-    "url": "https://github.com/andris9/buildmail/blob/HEAD/README.md#L1"
   },
   {
     "name": "bundle-loader",
@@ -447,39 +252,11 @@
     "url": "https://github.com/webpack-contrib/cache-loader/blob/HEAD/README.md#L1"
   },
   {
-    "name": "cids",
-    "reason": "⛔️ DEPRECATED: This module has been superseded by the [multiformats](https://github.com/multiformats/js-multiformats) module <!-- omit in toc -->",
-    "line": 1,
-    "repo": "multiformats/js-cid",
-    "url": "https://github.com/multiformats/js-cid/blob/HEAD/README.md#L1"
-  },
-  {
     "name": "cleave.js",
     "reason": "# ⚠️ Deprecated Message",
     "line": 1,
     "repo": "nosir/cleave.js",
     "url": "https://github.com/nosir/cleave.js/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "cli-ux",
-    "reason": "# ========= This module has been deprecated in favor of [oclif/core](https://github.com/oclif/core) and will no longer be maintained. =========",
-    "line": 4,
-    "repo": "oclif/cli-ux",
-    "url": "https://github.com/oclif/cli-ux/blob/HEAD/README.md#L4"
-  },
-  {
-    "name": "codacy-coverage",
-    "reason": "# Deprecated",
-    "line": 1,
-    "repo": "codacy/node-codacy-coverage",
-    "url": "https://github.com/codacy/node-codacy-coverage/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "codecov",
-    "reason": "🚨🚨 Deprecation Notice 🚨🚨",
-    "line": 1,
-    "repo": "codecov/codecov-node",
-    "url": "https://github.com/codecov/codecov-node/blob/HEAD/README.md#L1"
   },
   {
     "name": "coffeelint",
@@ -489,32 +266,11 @@
     "url": "https://github.com/clutchski/coffeelint/blob/HEAD/README.md#L7"
   },
   {
-    "name": "core-assert",
-    "reason": "# Deprecated",
-    "line": 1,
-    "repo": "sindresorhus/core-assert",
-    "url": "https://github.com/sindresorhus/core-assert/blob/HEAD/readme.md#L1"
-  },
-  {
     "name": "coveralls",
     "reason": "This repo is no longer maintained.",
     "line": 3,
     "repo": "nickmerwin/node-coveralls",
     "url": "https://github.com/nickmerwin/node-coveralls/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "cross-spawn-async",
-    "reason": "This module is deprecated, use [cross-spawn](https://github.com/IndigoUnited/node-cross-spawn) instead which no longer requires a build toolchain.",
-    "line": 19,
-    "repo": "IndigoUnited/node-cross-spawn-async",
-    "url": "https://github.com/IndigoUnited/node-cross-spawn-async/blob/HEAD/README.md#L19"
-  },
-  {
-    "name": "crypto",
-    "reason": "# Deprecated Package",
-    "line": 1,
-    "repo": "npm/deprecate-holder",
-    "url": "https://github.com/npm/deprecate-holder/blob/HEAD/README.md#L1"
   },
   {
     "name": "crypto-js",
@@ -531,20 +287,6 @@
     "url": "https://github.com/webpack/css-minimizer-webpack-plugin/blob/HEAD/README.md#L1"
   },
   {
-    "name": "cuid",
-    "reason": "## Status: Deprecated due to security. Use [Cuid2](https://github.com/paralleldrive/cuid2), instead.",
-    "line": 6,
-    "repo": "ericelliott/cuid",
-    "url": "https://github.com/ericelliott/cuid/blob/HEAD/README.md#L6"
-  },
-  {
-    "name": "cypress-xpath",
-    "reason": "This repo has been deprecated and moved to [https://github.com/cypress-io/cypress/tree/develop/npm/xpath](https://github.com/cypress-io/cypress/tree/develop/npm/xpath).",
-    "line": 3,
-    "repo": "cypress-io/cypress-xpath",
-    "url": "https://github.com/cypress-io/cypress-xpath/blob/HEAD/README.md#L3"
-  },
-  {
     "name": "d3-collection",
     "reason": "**Deprecation notice**: Use JavaScript’s built-in [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map), [Set](https://developer.mozilla.org/en-US/docs/Web/JavaSc",
     "line": 3,
@@ -557,34 +299,6 @@
     "line": 3,
     "repo": "d3/d3-voronoi",
     "url": "https://github.com/d3/d3-voronoi/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "debug-log",
-    "reason": "# Deprecated",
-    "line": 1,
-    "repo": "sindresorhus/debug-log",
-    "url": "https://github.com/sindresorhus/debug-log/blob/HEAD/readme.md#L1"
-  },
-  {
-    "name": "deep-assign",
-    "reason": "# DEPRECATED",
-    "line": 1,
-    "repo": "sindresorhus/deep-assign",
-    "url": "https://github.com/sindresorhus/deep-assign/blob/HEAD/readme.md#L1"
-  },
-  {
-    "name": "deep-strict-equal",
-    "reason": "This package is deprecated as it's too much effort to keep it in sync with the Node.js implementation.",
-    "line": 1,
-    "repo": "sindresorhus/deep-strict-equal",
-    "url": "https://github.com/sindresorhus/deep-strict-equal/blob/HEAD/readme.md#L1"
-  },
-  {
-    "name": "deepcopy",
-    "reason": "This package is no longer maintained.",
-    "line": 11,
-    "repo": "sasaplus1/deepcopy.js",
-    "url": "https://github.com/sasaplus1/deepcopy.js/blob/HEAD/README.md#L11"
   },
   {
     "name": "depcheck",
@@ -629,25 +343,11 @@
     "url": "https://github.com/eslint/doctrine/blob/HEAD/README.md#L11"
   },
   {
-    "name": "domexception",
-    "reason": "# domexception is deprecated",
-    "line": 1,
-    "repo": "jsdom/domexception",
-    "url": "https://github.com/jsdom/domexception/blob/HEAD/README.md#L1"
-  },
-  {
     "name": "domready",
     "reason": "## Deprecation Notice",
     "line": 12,
     "repo": "ded/domready",
     "url": "https://github.com/ded/domready/blob/HEAD/README.md#L12"
-  },
-  {
-    "name": "dottie",
-    "reason": "# UNMAINTAINED",
-    "line": 1,
-    "repo": "mickhansen/dottie.js",
-    "url": "https://github.com/mickhansen/dottie.js/blob/HEAD/README.md#L1"
   },
   {
     "name": "duplexer",
@@ -657,46 +357,11 @@
     "url": "https://github.com/Raynos/duplexer/blob/HEAD/README.md#L1"
   },
   {
-    "name": "ecstatic",
-    "reason": "# THIS PROJECT IS UNMAINTAINED AND DEPRECATED",
-    "line": 1,
-    "repo": "jfhbrook/node-ecstatic",
-    "url": "https://github.com/jfhbrook/node-ecstatic/blob/HEAD/README.md#L1"
-  },
-  {
     "name": "ejs-loader",
     "reason": "# Deprecated",
     "line": 1,
     "repo": "difelice/ejs-loader",
     "url": "https://github.com/difelice/ejs-loader/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "ember-ajax",
-    "reason": "## :warning: Deprecated",
-    "line": 14,
-    "repo": "ember-cli/ember-ajax",
-    "url": "https://github.com/ember-cli/ember-ajax/blob/HEAD/README.md#L14"
-  },
-  {
-    "name": "ember-cli-eslint",
-    "reason": "## 🔴 DEPRECATED 🔴",
-    "line": 17,
-    "repo": "ember-cli/ember-cli-eslint",
-    "url": "https://github.com/ember-cli/ember-cli-eslint/blob/HEAD/README.md#L17"
-  },
-  {
-    "name": "ember-cli-htmlbars-inline-precompile",
-    "reason": "## **Deprecated**",
-    "line": 3,
-    "repo": "ember-cli/ember-cli-htmlbars-inline-precompile",
-    "url": "https://github.com/ember-cli/ember-cli-htmlbars-inline-precompile/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "ember-cli-template-lint",
-    "reason": "## 🔴 DEPRECATED 🔴",
-    "line": 7,
-    "repo": "ember-template-lint/ember-cli-template-lint",
-    "url": "https://github.com/ember-template-lint/ember-cli-template-lint/blob/HEAD/README.md#L7"
   },
   {
     "name": "ember-export-application-global",
@@ -706,25 +371,11 @@
     "url": "https://github.com/ember-cli/ember-export-application-global/blob/HEAD/README.md#L13"
   },
   {
-    "name": "eslint-config-oclif-typescript",
-    "reason": "**Deprecated** eslint-config for oclif typescript projects. Use [eslint-config-oclif](https://github.com/oclif/eslint-config-oclif) instead.",
-    "line": 4,
-    "repo": "oclif/eslint-config-oclif-typescript",
-    "url": "https://github.com/oclif/eslint-config-oclif-typescript/blob/HEAD/README.md#L4"
-  },
-  {
     "name": "eslint-config-vue",
     "reason": "# DEPRECATED",
     "line": 1,
     "repo": "vuejs/eslint-config-vue",
     "url": "https://github.com/vuejs/eslint-config-vue/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "eslint-loader",
-    "reason": "## :warning: DEPRECATED",
-    "line": 18,
-    "repo": "webpack-contrib/eslint-loader",
-    "url": "https://github.com/webpack-contrib/eslint-loader/blob/HEAD/README.md#L18"
   },
   {
     "name": "eslint-plugin-deprecation",
@@ -748,13 +399,6 @@
     "url": "https://github.com/mysticatea/eslint-plugin-node/blob/HEAD/README.md#L1"
   },
   {
-    "name": "eslint-plugin-standard",
-    "reason": "### Deprecated: This package isn't used by `standard` anymore, as of `standard` v16. See: https://github.com/standard/standard/issues/1316",
-    "line": 12,
-    "repo": "standard/eslint-plugin-standard",
-    "url": "https://github.com/standard/eslint-plugin-standard/blob/HEAD/README.md#L12"
-  },
-  {
     "name": "eslint-restricted-globals",
     "reason": "This package is deprecated.",
     "line": 3,
@@ -769,13 +413,6 @@
     "url": "https://github.com/Rich-Harris/estree-walker/blob/HEAD/README.md#L1"
   },
   {
-    "name": "ethereumjs-abi",
-    "reason": "This library is deprecated and will not be further maintained.",
-    "line": 1,
-    "repo": "axic/ethereumjs-abi",
-    "url": "https://github.com/axic/ethereumjs-abi/blob/HEAD/README.md#L1"
-  },
-  {
     "name": "event-target-polyfill",
     "reason": "# NO LONGER MAINTAINED",
     "line": 4,
@@ -783,72 +420,11 @@
     "url": "https://github.com/benlesh/event-target-polyfill/blob/HEAD/README.md#L4"
   },
   {
-    "name": "express-graphql",
-    "reason": "# This library is deprecated",
-    "line": 3,
-    "repo": "graphql/express-graphql",
-    "url": "https://github.com/graphql/express-graphql/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "extract-text-webpack-plugin",
-    "reason": "# DEPRECATED",
-    "line": 1,
-    "repo": "webpack-contrib/extract-text-webpack-plugin",
-    "url": "https://github.com/webpack-contrib/extract-text-webpack-plugin/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "fluent-ffmpeg",
-    "reason": "## Fluent-ffmpeg is now deprecated",
-    "line": 6,
-    "repo": "fluent-ffmpeg/node-fluent-ffmpeg",
-    "url": "https://github.com/fluent-ffmpeg/node-fluent-ffmpeg/blob/HEAD/README.md#L6"
-  },
-  {
-    "name": "formatio",
-    "reason": "# formatio - DEPRECATED",
-    "line": 1,
-    "repo": "busterjs/formatio",
-    "url": "https://github.com/busterjs/formatio/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "fs-access",
-    "reason": "# Deprecated",
-    "line": 1,
-    "repo": "sindresorhus/fs-access",
-    "url": "https://github.com/sindresorhus/fs-access/blob/HEAD/readme.md#L1"
-  },
-  {
-    "name": "fs-promise",
-    "reason": "fs-promise is now deprecated.",
-    "line": 3,
-    "repo": "kevinbeaty/fs-promise",
-    "url": "https://github.com/kevinbeaty/fs-promise/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "gatsby-image",
-    "reason": "## ⚠️ This package is now deprecated",
-    "line": 1
-  },
-  {
-    "name": "gcs-resumable-upload",
-    "reason": "This repository has been deprecated.",
-    "line": 2,
-    "repo": "googleapis/gcs-resumable-upload",
-    "url": "https://github.com/googleapis/gcs-resumable-upload/blob/HEAD/README.md#L2"
-  },
-  {
     "name": "gitbook-cli",
     "reason": "> ## ⚠️ Deprecation warning:",
     "line": 1,
     "repo": "GitbookIO/gitbook-cli",
     "url": "https://github.com/GitbookIO/gitbook-cli/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "gm",
-    "reason": "# 2025-02-24 This project is not maintained",
-    "line": 1,
-    "repo": "aheckmann/gm",
-    "url": "https://github.com/aheckmann/gm/blob/HEAD/README.md#L1"
   },
   {
     "name": "graphql-fields",
@@ -886,32 +462,11 @@
     "url": "https://github.com/peter-vilja/gulp-clean/blob/HEAD/README.md#L1"
   },
   {
-    "name": "gulp-karma",
-    "reason": "## Deprecated",
-    "line": 5,
-    "repo": "lazd/gulp-karma",
-    "url": "https://github.com/lazd/gulp-karma/blob/HEAD/README.md#L5"
-  },
-  {
     "name": "gulp-rimraf",
     "reason": "Deprecated in favor of [https://github.com/gulpjs/gulp/blob/master/docs/recipes/delete-files-folder.md](https://github.com/gulpjs/gulp/blob/master/docs/recipes/delete-files-folder.md)",
     "line": 4,
     "repo": "robrich/gulp-rimraf",
     "url": "https://github.com/robrich/gulp-rimraf/blob/HEAD/README.md#L4"
-  },
-  {
-    "name": "gulp-util",
-    "reason": "This module has been deprecated.",
-    "line": 1,
-    "repo": "gulpjs/gulp-util",
-    "url": "https://github.com/gulpjs/gulp-util/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "hast-to-hyperscript",
-    "reason": "Deprecated: use [`hast-util-to-jsx-runtime`][hast-util-to-jsx-runtime] instead,",
-    "line": 3,
-    "repo": "syntax-tree/hast-to-hyperscript",
-    "url": "https://github.com/syntax-tree/hast-to-hyperscript/blob/HEAD/readme.md#L3"
   },
   {
     "name": "html-minifier",
@@ -928,18 +483,6 @@
     "url": "https://github.com/domchristie/humps/blob/HEAD/README.md#L4"
   },
   {
-    "name": "i18next-parser",
-    "reason": "## Deprecation notice",
-    "line": 8,
-    "repo": "i18next/i18next-parser",
-    "url": "https://github.com/i18next/i18next-parser/blob/HEAD/README.md#L8"
-  },
-  {
-    "name": "idx",
-    "reason": "This module is deprecated and no longer maintained.",
-    "line": 3
-  },
-  {
     "name": "image-webpack-loader",
     "reason": "# DEPRECATED",
     "line": 5,
@@ -952,27 +495,6 @@
     "line": 3,
     "repo": "chadxz/imap-simple",
     "url": "https://github.com/chadxz/imap-simple/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "inflight",
-    "reason": "# deprecated",
-    "line": 1,
-    "repo": "npm/inflight",
-    "url": "https://github.com/npm/inflight/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "ipfs-http-client",
-    "reason": "> # ⛔️ DEPRECATED: [js-IPFS](https://github.com/ipfs/js-ipfs) has been superseded by [Helia](https://github.com/ipfs/helia)",
-    "line": 1,
-    "repo": "ipfs/js-ipfs",
-    "url": "https://github.com/ipfs/js-ipfs/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "is-finite",
-    "reason": "Deprecated as this is now natively available in all modern browsers and Node.js versions.",
-    "line": 1,
-    "repo": "sindresorhus/is-finite",
-    "url": "https://github.com/sindresorhus/is-finite/blob/HEAD/readme.md#L1"
   },
   {
     "name": "isemail",
@@ -989,13 +511,6 @@
     "url": "https://github.com/douglasduteil/isparta/blob/HEAD/README.md#L18"
   },
   {
-    "name": "isparta-loader",
-    "reason": "# Package is deprecated, use [istanbul-instrumenter-loader](https://github.com/deepsweet/istanbul-instrumenter-loader)",
-    "line": 1,
-    "repo": "deepsweet/isparta-loader",
-    "url": "https://github.com/deepsweet/isparta-loader/blob/HEAD/README.md#L1"
-  },
-  {
     "name": "jaeger-client",
     "reason": "# 🛑 This library is DEPRECATED!",
     "line": 3,
@@ -1008,11 +523,6 @@
     "line": 3,
     "repo": "ianschmitz/jest-environment-jsdom-fourteen",
     "url": "https://github.com/ianschmitz/jest-environment-jsdom-fourteen/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "jest-serializer",
-    "reason": "> DEPRECATED: Use `v8` APIs directly: https://nodejs.org/api/v8.html#serialization-api",
-    "line": 3
   },
   {
     "name": "json-schema-to-zod",
@@ -1071,23 +581,6 @@
     "url": "https://github.com/Medium/kew/blob/HEAD/README.md#L4"
   },
   {
-    "name": "ky-universal",
-    "reason": "This package is deprecated.",
-    "line": 5,
-    "repo": "sindresorhus/ky-universal",
-    "url": "https://github.com/sindresorhus/ky-universal/blob/HEAD/readme.md#L5"
-  },
-  {
-    "name": "langfuse",
-    "reason": "This SDK is deprecated. The Langfuse TypeScript SDK was completely rewritten and released as v4 in August 2025.",
-    "line": 8
-  },
-  {
-    "name": "langfuse-core",
-    "reason": "This SDK is deprecated. The Langfuse TypeScript SDK was completely rewritten and released as v4 in August 2025.",
-    "line": 8
-  },
-  {
     "name": "less-plugin-npm-import",
     "reason": "**DEPRECATED: Less 3+ in a Node environment will search NPM paths by default.**",
     "line": 1,
@@ -1109,32 +602,11 @@
     "url": "https://github.com/marudor/libxmljs2/blob/HEAD/README.md#L1"
   },
   {
-    "name": "mailcomposer",
-    "reason": "# NB! This project is deprecated",
-    "line": 1,
-    "repo": "andris9/mailcomposer",
-    "url": "https://github.com/andris9/mailcomposer/blob/HEAD/README.md#L1"
-  },
-  {
     "name": "markdown",
     "reason": "## Notice: Unmaintained",
     "line": 5,
     "repo": "evilstreak/markdown-js",
     "url": "https://github.com/evilstreak/markdown-js/blob/HEAD/README.md#L5"
-  },
-  {
-    "name": "math-log2",
-    "reason": "Deprecated as this is now natively available in all modern browsers and Node.js versions.",
-    "line": 1,
-    "repo": "sindresorhus/math-log2",
-    "url": "https://github.com/sindresorhus/math-log2/blob/HEAD/readme.md#L1"
-  },
-  {
-    "name": "mdast-util-footnote",
-    "reason": "Deprecated: use [`mdast-util-gfm`][mdast-util-gfm] instead.",
-    "line": 3,
-    "repo": "syntax-tree/mdast-util-footnote",
-    "url": "https://github.com/syntax-tree/mdast-util-footnote/blob/HEAD/readme.md#L3"
   },
   {
     "name": "memory-fs",
@@ -1149,20 +621,6 @@
     "line": 7,
     "repo": "wojtekmaj/merge-class-names",
     "url": "https://github.com/wojtekmaj/merge-class-names/blob/HEAD/README.md#L7"
-  },
-  {
-    "name": "micromark-extension-footnote",
-    "reason": "Deprecated: this package is no longer maintained.",
-    "line": 3,
-    "repo": "micromark/micromark-extension-footnote",
-    "url": "https://github.com/micromark/micromark-extension-footnote/blob/HEAD/readme.md#L3"
-  },
-  {
-    "name": "mkdirp-promise",
-    "reason": "<h1>⚠️ This package is broken and no longer maintained</h1>",
-    "line": 3,
-    "repo": "ahmadnassri/mkdirp-promise",
-    "url": "https://github.com/ahmadnassri/mkdirp-promise/blob/HEAD/README.md#L3"
   },
   {
     "name": "mocha-jsdom",
@@ -1193,27 +651,6 @@
     "url": "https://github.com/boblauer/mock-require/blob/HEAD/README.md#L1"
   },
   {
-    "name": "moize",
-    "reason": "This library has been deprecated in favor of micro-memoize, which as-of version 5 incorporates most of the functionality that this library offers at nearly half the size and better speed.",
-    "line": 2,
-    "repo": "planttheidea/moize",
-    "url": "https://github.com/planttheidea/moize/blob/HEAD/README.md#L2"
-  },
-  {
-    "name": "multibase",
-    "reason": "⛔️ DEPRECATED: This module has been superseded by the [multiformats](https://github.com/multiformats/js-multiformats) module <!-- omit in toc -->",
-    "line": 1,
-    "repo": "multiformats/js-multibase",
-    "url": "https://github.com/multiformats/js-multibase/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "multicodec",
-    "reason": "# ⛔️ DEPRECATED: This module has been superseded by the [multiformats](https://github.com/multiformats/js-multiformats) module <!-- omit in toc -->",
-    "line": 1,
-    "repo": "multiformats/js-multicodec",
-    "url": "https://github.com/multiformats/js-multicodec/blob/HEAD/README.md#L1"
-  },
-  {
     "name": "nanocolors",
     "reason": "# Deprecated",
     "line": 1,
@@ -1242,13 +679,6 @@
     "url": "https://github.com/segmentio/nightmare/blob/HEAD/Readme.md#L1"
   },
   {
-    "name": "node-domexception",
-    "reason": "# Deprecated",
-    "line": 1,
-    "repo": "jimmywarting/node-domexception",
-    "url": "https://github.com/jimmywarting/node-domexception/blob/HEAD/README.md#L1"
-  },
-  {
     "name": "node-libs-browser",
     "reason": "This library is deprecated and won't accept Pull Requests that include Breaking Changes or new Features.",
     "line": 5,
@@ -1263,53 +693,11 @@
     "url": "https://github.com/webpack-contrib/node-loader/blob/HEAD/README.md#L1"
   },
   {
-    "name": "node-sass-chokidar",
-    "reason": "# DEPRECATED",
-    "line": 4,
-    "repo": "michaelwayman/node-sass-chokidar",
-    "url": "https://github.com/michaelwayman/node-sass-chokidar/blob/HEAD/README.md#L4"
-  },
-  {
-    "name": "node-status-codes",
-    "reason": "# Deprecated",
-    "line": 1,
-    "repo": "sindresorhus/node-status-codes",
-    "url": "https://github.com/sindresorhus/node-status-codes/blob/HEAD/readme.md#L1"
-  },
-  {
-    "name": "nomnom",
-    "reason": "# deprecation notice",
-    "line": 1,
-    "repo": "harthur/nomnom",
-    "url": "https://github.com/harthur/nomnom/blob/HEAD/README.md#L1"
-  },
-  {
     "name": "normalizr",
     "reason": "# 📣 Normalizr is no longer maintained",
     "line": 3,
     "repo": "paularmstrong/normalizr",
     "url": "https://github.com/paularmstrong/normalizr/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "npx",
-    "reason": "⚠️ DEPRECATED: This project has been deprecated - **npx** is now part of the **[npm cli](https://github.com/npm/cli)**",
-    "line": 1,
-    "repo": "npm/npx",
-    "url": "https://github.com/npm/npx/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "number-is-integer",
-    "reason": "Deprecated as this is now natively available in all modern browsers and Node.js versions.",
-    "line": 1,
-    "repo": "sindresorhus/number-is-integer",
-    "url": "https://github.com/sindresorhus/number-is-integer/blob/HEAD/readme.md#L1"
-  },
-  {
-    "name": "number-is-nan",
-    "reason": "Deprecated as this is now natively available in all modern browsers and Node.js versions.",
-    "line": 1,
-    "repo": "sindresorhus/number-is-nan",
-    "url": "https://github.com/sindresorhus/number-is-nan/blob/HEAD/readme.md#L1"
   },
   {
     "name": "nwb",
@@ -1333,32 +721,6 @@
     "url": "https://github.com/baldore/webpack-open-plugin/blob/HEAD/README.md#L1"
   },
   {
-    "name": "optimist",
-    "reason": "# DEPRECATION NOTICE",
-    "line": 1
-  },
-  {
-    "name": "os-homedir",
-    "reason": "# Deprecated",
-    "line": 1,
-    "repo": "sindresorhus/os-homedir",
-    "url": "https://github.com/sindresorhus/os-homedir/blob/HEAD/readme.md#L1"
-  },
-  {
-    "name": "os-tmpdir",
-    "reason": "**Deprecated:** This is not needed anymore. `require('os').tmpdir()` in Node.js 4 and up is good.",
-    "line": 1,
-    "repo": "sindresorhus/os-tmpdir",
-    "url": "https://github.com/sindresorhus/os-tmpdir/blob/HEAD/readme.md#L1"
-  },
-  {
-    "name": "p-finally",
-    "reason": "Deprecated as it's now available in all modern browsers and Node.js versions.",
-    "line": 1,
-    "repo": "sindresorhus/p-finally",
-    "url": "https://github.com/sindresorhus/p-finally/blob/HEAD/readme.md#L1"
-  },
-  {
     "name": "parsejson",
     "reason": "## This repo is no longer maintained.",
     "line": 1,
@@ -1373,23 +735,11 @@
     "url": "https://github.com/jneen/parsimmon/blob/HEAD/README.md#L8"
   },
   {
-    "name": "path-is-absolute",
-    "reason": "# Deprecated",
-    "line": 1,
-    "repo": "sindresorhus/path-is-absolute",
-    "url": "https://github.com/sindresorhus/path-is-absolute/blob/HEAD/readme.md#L1"
-  },
-  {
     "name": "peek-readable",
     "reason": "> ### This modules is deprecated.",
     "line": 12,
     "repo": "Borewit/peek-readable",
     "url": "https://github.com/Borewit/peek-readable/blob/HEAD/README.md#L12"
-  },
-  {
-    "name": "phin",
-    "reason": "## Deprecated",
-    "line": 9
   },
   {
     "name": "pkg",
@@ -1411,27 +761,6 @@
     "line": 5,
     "repo": "postcss/postcss-color-function",
     "url": "https://github.com/postcss/postcss-color-function/blob/HEAD/README.md#L5"
-  },
-  {
-    "name": "postcss-cssnext",
-    "reason": "## `postcss-cssnext` has been deprecated in favor of `postcss-preset-env`",
-    "line": 1,
-    "repo": "MoOx/postcss-cssnext",
-    "url": "https://github.com/MoOx/postcss-cssnext/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "prebuild",
-    "reason": "This module is deprecated and no longer maintained.",
-    "line": 4,
-    "repo": "prebuild/prebuild",
-    "url": "https://github.com/prebuild/prebuild/blob/HEAD/README.md#L4"
-  },
-  {
-    "name": "prebuild-install",
-    "reason": "This module is deprecated and no longer maintained, along with prebuild.",
-    "line": 4,
-    "repo": "prebuild/prebuild-install",
-    "url": "https://github.com/prebuild/prebuild-install/blob/HEAD/README.md#L4"
   },
   {
     "name": "radium",
@@ -1553,139 +882,6 @@
     "url": "https://github.com/arnaudbenard/redux-mock-store/blob/HEAD/README.md#L1"
   },
   {
-    "name": "remark-external-links",
-    "reason": "Deprecated: this package is no longer maintained.",
-    "line": 3,
-    "repo": "remarkjs/remark-external-links",
-    "url": "https://github.com/remarkjs/remark-external-links/blob/HEAD/readme.md#L3"
-  },
-  {
-    "name": "remark-footnotes",
-    "reason": "Deprecated: this package is no longer maintained.",
-    "line": 3,
-    "repo": "remarkjs/remark-footnotes",
-    "url": "https://github.com/remarkjs/remark-footnotes/blob/HEAD/readme.md#L3"
-  },
-  {
-    "name": "remark-slug",
-    "reason": "Deprecated: this package is no longer maintained.",
-    "line": 3,
-    "repo": "remarkjs/remark-slug",
-    "url": "https://github.com/remarkjs/remark-slug/blob/HEAD/readme.md#L3"
-  },
-  {
-    "name": "request",
-    "reason": "# Deprecated!",
-    "line": 1,
-    "repo": "request/request",
-    "url": "https://github.com/request/request/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "request-promise",
-    "reason": "# Deprecated!",
-    "line": 13,
-    "repo": "request/request-promise",
-    "url": "https://github.com/request/request-promise/blob/HEAD/README.md#L13"
-  },
-  {
-    "name": "request-promise-native",
-    "reason": "# Deprecated!",
-    "line": 13,
-    "repo": "request/request-promise-native",
-    "url": "https://github.com/request/request-promise-native/blob/HEAD/README.md#L13"
-  },
-  {
-    "name": "resolve-url",
-    "reason": "Deprecated",
-    "line": 1,
-    "repo": "lydell/resolve-url",
-    "url": "https://github.com/lydell/resolve-url/blob/HEAD/readme.md#L1"
-  },
-  {
-    "name": "rollup-plugin-alias",
-    "reason": "This repository is no longer maintained.",
-    "line": 3,
-    "repo": "frostney/rollup-plugin-alias",
-    "url": "https://github.com/frostney/rollup-plugin-alias/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "rollup-plugin-babel",
-    "reason": "This repository is no longer maintained.",
-    "line": 3,
-    "repo": "rollup/rollup-plugin-babel",
-    "url": "https://github.com/rollup/rollup-plugin-babel/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "rollup-plugin-babel-minify",
-    "reason": "## ☠️ Project is deprecated! ☠️",
-    "line": 7,
-    "repo": "Comandeer/rollup-plugin-babel-minify",
-    "url": "https://github.com/Comandeer/rollup-plugin-babel-minify/blob/HEAD/README.md#L7"
-  },
-  {
-    "name": "rollup-plugin-buble",
-    "reason": "This repository is no longer maintained.",
-    "line": 3,
-    "repo": "rollup/rollup-plugin-buble",
-    "url": "https://github.com/rollup/rollup-plugin-buble/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "rollup-plugin-commonjs",
-    "reason": "This repository is no longer maintained.",
-    "line": 3,
-    "repo": "rollup/rollup-plugin-commonjs",
-    "url": "https://github.com/rollup/rollup-plugin-commonjs/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "rollup-plugin-inject",
-    "reason": "This repository is no longer maintained.",
-    "line": 3,
-    "repo": "rollup/rollup-plugin-inject",
-    "url": "https://github.com/rollup/rollup-plugin-inject/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "rollup-plugin-json",
-    "reason": "This repository is no longer maintained.",
-    "line": 3,
-    "repo": "rollup/rollup-plugin-json",
-    "url": "https://github.com/rollup/rollup-plugin-json/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "rollup-plugin-multi-entry",
-    "reason": "This repository is no longer maintained.",
-    "line": 3,
-    "repo": "rollup/rollup-plugin-multi-entry",
-    "url": "https://github.com/rollup/rollup-plugin-multi-entry/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "rollup-plugin-node-resolve",
-    "reason": "This repository is no longer maintained.",
-    "line": 3,
-    "repo": "rollup/rollup-plugin-node-resolve",
-    "url": "https://github.com/rollup/rollup-plugin-node-resolve/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "rollup-plugin-replace",
-    "reason": "This repository is no longer maintained.",
-    "line": 3,
-    "repo": "rollup/rollup-plugin-replace",
-    "url": "https://github.com/rollup/rollup-plugin-replace/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "rollup-plugin-ts",
-    "reason": "# This library has been deprecated",
-    "line": 1,
-    "repo": "wessberg/rollup-plugin-ts",
-    "url": "https://github.com/wessberg/rollup-plugin-ts/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "rollup-plugin-typescript",
-    "reason": "This repository is no longer maintained.",
-    "line": 3,
-    "repo": "rollup/rollup-plugin-typescript",
-    "url": "https://github.com/rollup/rollup-plugin-typescript/blob/HEAD/README.md#L3"
-  },
-  {
     "name": "rollup-plugin-uglify-es",
     "reason": "DEPRECATED, see [rollup-plugin-terser](https://github.com/TrySound/rollup-plugin-terser) instead.",
     "line": 1,
@@ -1693,25 +889,11 @@
     "url": "https://github.com/ezekielchentnik/rollup-plugin-uglify-es/blob/HEAD/README.md#L1"
   },
   {
-    "name": "rollup-plugin-url",
-    "reason": "This repository is no longer maintained.",
-    "line": 3,
-    "repo": "Swatinem/rollup-plugin-url",
-    "url": "https://github.com/Swatinem/rollup-plugin-url/blob/HEAD/README.md#L3"
-  },
-  {
     "name": "rollup-pluginutils",
     "reason": "This repository is no longer maintained.",
     "line": 3,
     "repo": "rollup/rollup-pluginutils",
     "url": "https://github.com/rollup/rollup-pluginutils/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "rollup-watch",
-    "reason": "# This package is now deprecated — Rollup exports a `watch` method as of 0.46",
-    "line": 1,
-    "repo": "rollup/rollup-watch",
-    "url": "https://github.com/rollup/rollup-watch/blob/HEAD/README.md#L1"
   },
   {
     "name": "sass-lint",
@@ -1756,27 +938,6 @@
     "url": "https://github.com/webpack-contrib/source-map-loader/blob/HEAD/README.md#L1"
   },
   {
-    "name": "source-map-resolve",
-    "reason": "Deprecated",
-    "line": 1,
-    "repo": "lydell/source-map-resolve",
-    "url": "https://github.com/lydell/source-map-resolve/blob/HEAD/readme.md#L1"
-  },
-  {
-    "name": "source-map-url",
-    "reason": "Deprecated",
-    "line": 1,
-    "repo": "lydell/source-map-url",
-    "url": "https://github.com/lydell/source-map-url/blob/HEAD/readme.md#L1"
-  },
-  {
-    "name": "sourcemap-codec",
-    "reason": "# deprecated — please use [@jridgewell/sourcemap-codec](https://github.com/jridgewell/sourcemap-codec) instead",
-    "line": 1,
-    "repo": "Rich-Harris/sourcemap-codec",
-    "url": "https://github.com/Rich-Harris/sourcemap-codec/blob/HEAD/README.md#L1"
-  },
-  {
     "name": "speakeasy",
     "reason": "# NOT MAINTAINED",
     "line": 1,
@@ -1798,27 +959,6 @@
     "url": "https://github.com/conventional-changelog/standard-version/blob/HEAD/README.md#L3"
   },
   {
-    "name": "stream-to-promise",
-    "reason": "> **Deprecated.** Node.js now ships promise-based stream helpers in core, so this",
-    "line": 4,
-    "repo": "bendrucker/stream-to-promise",
-    "url": "https://github.com/bendrucker/stream-to-promise/blob/HEAD/README.md#L4"
-  },
-  {
-    "name": "string-similarity",
-    "reason": "# ⚰️ ⚰️ DEPRECATED ⚰️ ⚰️",
-    "line": 1,
-    "repo": "aceakash/string-similarity",
-    "url": "https://github.com/aceakash/string-similarity/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "subscriptions-transport-ws",
-    "reason": "# `subscriptions-transport-ws` is no longer maintained",
-    "line": 1,
-    "repo": "apollostack/subscriptions-transport-ws",
-    "url": "https://github.com/apollostack/subscriptions-transport-ws/blob/HEAD/README.md#L1"
-  },
-  {
     "name": "svg-inline-loader",
     "reason": "# ! NO LONGER MAINTAINED !",
     "line": 7,
@@ -1831,48 +971,6 @@
     "line": 4,
     "repo": "systemjs/builder",
     "url": "https://github.com/systemjs/builder/blob/HEAD/README.md#L4"
-  },
-  {
-    "name": "time-grunt",
-    "reason": "## Deprecated",
-    "line": 1,
-    "repo": "sindresorhus/time-grunt",
-    "url": "https://github.com/sindresorhus/time-grunt/blob/HEAD/readme.md#L1"
-  },
-  {
-    "name": "travis-deploy-once",
-    "reason": "## :warning: Deprecation Notice :warning:",
-    "line": 9,
-    "repo": "semantic-release/travis-deploy-once",
-    "url": "https://github.com/semantic-release/travis-deploy-once/blob/HEAD/README.md#L9"
-  },
-  {
-    "name": "trim-right",
-    "reason": "Deprecated in favor of `String#trimEnd`.",
-    "line": 1,
-    "repo": "sindresorhus/trim-right",
-    "url": "https://github.com/sindresorhus/trim-right/blob/HEAD/readme.md#L1"
-  },
-  {
-    "name": "tsc",
-    "reason": "DEPRECATED. Use `ntypescript` [https://www.npmjs.com/package/ntypescript](https://www.npmjs.com/package/ntypescript) as it follows a simple `original` -> `noriginal` name transform for `require` as we",
-    "line": 1,
-    "repo": "basarat/tsc",
-    "url": "https://github.com/basarat/tsc/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "tsconfck",
-    "reason": "# Important notice - tsconfck is unmaintained",
-    "line": 1,
-    "repo": "dominikg/tsconfck",
-    "url": "https://github.com/dominikg/tsconfck/blob/HEAD/packages/tsconfck/README.md#L1"
-  },
-  {
-    "name": "tslint",
-    "reason": "TSLint is deprecated.",
-    "line": 10,
-    "repo": "palantir/tslint",
-    "url": "https://github.com/palantir/tslint/blob/HEAD/README.md#L10"
   },
   {
     "name": "tslint-config-airbnb",
@@ -1910,46 +1008,11 @@
     "url": "https://github.com/TypeStrong/typedoc-default-themes/blob/HEAD/README.md#L1"
   },
   {
-    "name": "typescript-eslint-parser",
-    "reason": "# Deprecated: TypeScript ESLint Parser",
-    "line": 1,
-    "repo": "eslint/typescript-eslint-parser",
-    "url": "https://github.com/eslint/typescript-eslint-parser/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "typings",
-    "reason": "## Deprecation Notice: Regarding TypeScript@2.0",
-    "line": 10,
-    "repo": "typings/typings",
-    "url": "https://github.com/typings/typings/blob/HEAD/README.md#L10"
-  },
-  {
     "name": "uglifyjs-webpack-plugin",
     "reason": "# DEPRECATED",
     "line": 1,
     "repo": "webpack-contrib/uglifyjs-webpack-plugin",
     "url": "https://github.com/webpack-contrib/uglifyjs-webpack-plugin/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "urix",
-    "reason": "Deprecated",
-    "line": 1,
-    "repo": "lydell/urix",
-    "url": "https://github.com/lydell/urix/blob/HEAD/readme.md#L1"
-  },
-  {
-    "name": "user-home",
-    "reason": "Deprecated. Just use `import {homedir} from 'os';`.",
-    "line": 1,
-    "repo": "sindresorhus/user-home",
-    "url": "https://github.com/sindresorhus/user-home/blob/HEAD/readme.md#L1"
-  },
-  {
-    "name": "uuid-browser",
-    "reason": "# ⚠️ THIS IS DEPRECATED",
-    "line": 1,
-    "repo": "heikomat/uuid-browser",
-    "url": "https://github.com/heikomat/uuid-browser/blob/HEAD/README.md#L1"
   },
   {
     "name": "uuid-parse",
@@ -1964,13 +1027,6 @@
     "line": 2,
     "repo": "emilkowalski/vaul",
     "url": "https://github.com/emilkowalski/vaul/blob/HEAD/README.md#L2"
-  },
-  {
-    "name": "vscode",
-    "reason": "## ⚠️ Deprecated, use @types/vscode and vscode-test instead ⚠️",
-    "line": 3,
-    "repo": "Microsoft/vscode-extension-vscode",
-    "url": "https://github.com/Microsoft/vscode-extension-vscode/blob/HEAD/README.md#L3"
   },
   {
     "name": "vue-awesome-swiper",
@@ -2015,32 +1071,11 @@
     "url": "https://github.com/surmon-china/vue-quill-editor/blob/HEAD/README.md#L17"
   },
   {
-    "name": "w3c-hr-time",
-    "reason": "# w3c-hr-time is deprecated",
-    "line": 1,
-    "repo": "jsdom/w3c-hr-time",
-    "url": "https://github.com/jsdom/w3c-hr-time/blob/HEAD/README.md#L1"
-  },
-  {
     "name": "web3-provider-engine",
     "reason": "This package has been deprecated.",
     "line": 6,
     "repo": "MetaMask/web3-provider-engine",
     "url": "https://github.com/MetaMask/web3-provider-engine/blob/HEAD/README.md#L6"
-  },
-  {
-    "name": "whatwg-encoding",
-    "reason": "# `whatwg-encoding` is deprecated",
-    "line": 1,
-    "repo": "jsdom/whatwg-encoding",
-    "url": "https://github.com/jsdom/whatwg-encoding/blob/HEAD/README.md#L1"
-  },
-  {
-    "name": "wrench",
-    "reason": "This Project Is Deprecated!",
-    "line": 1,
-    "repo": "ryanmcgrath/wrench-js",
-    "url": "https://github.com/ryanmcgrath/wrench-js/blob/HEAD/readme.md#L1"
   },
   {
     "name": "xdate",
@@ -2069,20 +1104,6 @@
     "line": 6,
     "repo": "StefanTerdell/zod-to-json-schema",
     "url": "https://github.com/StefanTerdell/zod-to-json-schema/blob/HEAD/README.md#L6"
-  },
-  {
-    "name": "@snyk/github-codeowners",
-    "reason": "This repository and the associated npm package are no longer maintained.",
-    "line": 3,
-    "repo": "snyk/github-codeowners",
-    "url": "https://github.com/snyk/github-codeowners/blob/HEAD/README.md#L3"
-  },
-  {
-    "name": "elasticsearch",
-    "reason": "This client is no longer maintained.",
-    "line": 1,
-    "repo": "elastic/elasticsearch-js-legacy",
-    "url": "https://github.com/elastic/elasticsearch-js-legacy/blob/HEAD/README.md#L1"
   },
   {
     "name": "node-nats-streaming",
