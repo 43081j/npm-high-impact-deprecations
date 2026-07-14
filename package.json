@@ -1,0 +1,39 @@
+{
+  "name": "@43081j/psreps",
+  "version": "0.1.0",
+  "description": "A collection of package sreps.",
+  "homepage": "https://github.com/43081j/psreps#readme",
+  "bugs": {
+    "url": "https://github.com/43081j/psreps/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/43081j/psreps.git"
+  },
+  "license": "MIT",
+  "author": "James Garbutt (https://github.com/43081j)",
+  "type": "module",
+  "main": "lib/main.js",
+  "files": [
+    "lib",
+    "!lib/**/*.test.js",
+    "!lib/**/*.test.d.ts"
+  ],
+  "scripts": {
+    "build:clean": "node -e \"require('fs').rmSync('./lib', { recursive: true, force: true })\"",
+    "build": "npm run build:clean && tsc",
+    "lint:js": "oxlint src",
+    "lint:format": "oxfmt --check src",
+    "lint": "npm run lint:js && npm run lint:format",
+    "format": "oxfmt --write src",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "h3": "^2.0.1-rc.25",
+    "npm-high-impact": "^1.13.0",
+    "oxfmt": "^0.59.0",
+    "oxlint": "^1.74.0",
+    "typescript": "^7.0.2"
+  }
+}
