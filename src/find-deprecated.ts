@@ -1,6 +1,17 @@
 import { readFile, readdir, writeFile } from 'node:fs/promises';
 import { dirname, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import {
+  type Manifest,
+  REGISTRY,
+  blobUrl,
+  fetchReadme,
+  fetchWithRetry,
+  parseGithubRepo,
+} from './github.ts';
+
+/** Concurrent registry/GitHub lookups while resolving source URLs. */
+const CONCURRENCY = 20;
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const README_DIR = join(ROOT, 'readmes');
@@ -277,6 +288,50 @@ async function collectReadmes(dir: string): Promise<string[]> {
   return files;
 }
 
+async function mapWithConcurrency<T>(
+  items: readonly T[],
+  limit: number,
+  fn: (item: T, index: number) => Promise<void>,
+): Promise<void> {
+  let next = 0;
+  const worker = async (): Promise<void> => {
+    while (true) {
+      const index = next++;
+      if (index >= items.length) return;
+      const item = items[index];
+      if (item === undefined) return;
+      await fn(item, index);
+    }
+  };
+  await Promise.all(
+    Array.from({ length: Math.min(limit, items.length) }, worker),
+  );
+}
+
+/**
+ * Resolves the GitHub URL of the README a finding was scanned from, so the
+ * report can deep-link to the notice. Returns `owner/repo` and a blob URL
+ * pointing at the finding's line on the default branch.
+ */
+async function resolveSource(
+  name: string,
+  line: number,
+): Promise<{ repo: string; url: string } | undefined> {
+  const res = await fetchWithRetry(`${REGISTRY}/${name}/latest`);
+  if (!res.ok) return undefined;
+
+  const gh = parseGithubRepo((await res.json()) as Manifest);
+  if (!gh) return undefined;
+
+  const readme = await fetchReadme(gh);
+  if (!readme) return undefined;
+
+  return {
+    repo: `${gh.owner}/${gh.repo}`,
+    url: `${blobUrl(gh, readme.file)}#L${line}`,
+  };
+}
+
 async function main(): Promise<void> {
   const files = await collectReadmes(README_DIR);
   const findings: Finding[] = [];
@@ -293,10 +348,22 @@ async function main(): Promise<void> {
       a.name.localeCompare(b.name),
   );
 
+  const sources = new Map<string, { repo: string; url: string }>();
+  let resolved = 0;
+  await mapWithConcurrency(findings, CONCURRENCY, async (finding) => {
+    const source = await resolveSource(finding.name, finding.line).catch(
+      () => undefined,
+    );
+    if (source) sources.set(finding.name, source);
+    console.error(`\rResolving sources: ${++resolved}/${findings.length}`);
+  });
+
   const output = findings.map(({ name, reason, line }) => ({
     name,
     reason,
     line,
+    repo: sources.get(name)?.repo,
+    url: sources.get(name)?.url,
   }));
   const json = JSON.stringify(output, null, 2) + '\n';
 

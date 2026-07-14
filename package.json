@@ -25,6 +25,7 @@
     "build": "npm run build:clean && tsc",
     "generate": "node src/generate.ts",
     "find-deprecated": "node src/find-deprecated.ts",
+    "report": "node src/report.ts",
     "lint:js": "oxlint src",
     "lint:format": "oxfmt --check src",
     "lint": "npm run lint:js && npm run lint:format",
