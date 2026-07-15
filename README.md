@@ -11,6 +11,8 @@ nothing signals that to `npm install` or to tooling that reads registry metadata
 `deprecated.json` is a list of `{ name, reason, line }` for each package whose README
 declares a deprecation, where `line` is the README line the notice was found on.
 
+The full table of results can be found at [./results.md](./results.md).
+
 ## Development
 
 ```sh
